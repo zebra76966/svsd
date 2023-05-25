@@ -1,0 +1,374 @@
+[
+  {
+    "type": "notification",
+    "id": "0d52adad-83a1-477f-91a0-cb3765030c65",
+    "title": "Mrs",
+    "date": "俞凯",
+    "desc": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "file": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAITSURBVDjLpZNNSJRBGMd/s7q50ZoWISZSRAgF5VpELFJ0CK9RneokEl1qO3URpFNCXqIO0aFLEF0iiAj6JBB0WYwOoikRJiXUYqbsumv7zvu+M/N02BV30YPgc5h5GPh/zMz/USLCVirCFqt+tZGfb8UUFxEJEBMiNkRMgBgfsT6EGms0YjwINU0Xn6haAmuIHrm0TkEEFFQWQCD3/PJ6B37+N9tFEOeVDxSIOEAhrDGoSAMSehtcwRhcMI8pfgLnIxKUdxeA04jTiPPYtucCLixtQGB9wCBOg4QVUDVYI64EYpBgAwdmZalsuUbZwzldIfHAeWUR8289gbMaPTOK8b+DDUAMVheI7W8pKzuNWA/E1byBWg3S4oteibZ0EO86DzhcMEdx/BkN+3aBlBie1YzMOZY9j6CU489K/tabOxOD9VVMhAuT5D6m2dl9FaUUTkKQEu+/FZny45w5fYL23R0MT79kbGr0djLV1hyp/u/Gk72E+b/kR+5VwBqxmtdfc3QdSmAjlsTeHqwKSR7tBri+FmWjUXURdhy/gphmiplX1MUSxFr7WCgsEVVxzh2+AcDNs4842NIJEKvKgSb37j5iNBJ6BN4XmM1Q+vyUQiFgOpthIpumv+cxQx/6iNU1AGi1mWlMptoG2w80DXR3nqKj9Rgz8+NkJtP8+rF8V212nJOptiHgGtAIFIGHYw+y/f8B3ntD1Kp2NbQAAAAASUVORK5CYII="
+  },
+  {
+    "type": "notification",
+    "id": "35cdbc5e-93f6-4e4e-b87f-7b8e5f293169",
+    "title": "Rev",
+    "date": "宸赫",
+    "desc": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "file": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAH+SURBVDjLdZI7aFRREIa/k3u5cclGwiXEF9GInSCIoF0qa1/BynJdyBYhtaRJSrsFK4XtBCGFQRALm4BYKQg2ti5JQEh2hay66ObMmbG49+4jSwYOc4rzfzP/nHFmBsCL6uWrwDfGo7PcaM5wQrjnjxduABvAnXJ6hkdr63TbnwGYmr3Fy/Un/O3+AngFbC03mq+HATGwdfv+g4ul8jT++1fMjNDrAmBmLF6bZ+LcFczs4fs3b+8CY4BLpfJpjn4fICo0N+tgBhht+4Ka4ff3ODV7ITFInHPOCt85ADRgIkzMnEWDYKb8aHf52fmHAbp/iNsTdlo9gJvOuQNg18w0BjBVVAT1PdT3wIxW65B7a++I4qTf7hKwIfKp0Wg8W1lZqTvndnOAoMFjprn37ERxgvceEUFE8N6TpimVSmU1jmNqtVp9IgMEVDwmHg0BDYppBnPOEUURURThnAMgSRKq1eoqMBcXAMRjQTFRVA2VDBBFUT9PTk7S6XQIIZCm6WCIpllVFUUlYGpYCCMdFHfnHCIy8o3ZEH3ARDEJqIKKDbYthxQWitwHZNUzgOYWig6GIcdBgz0IhnrNZ1BY0PG9z4WFpQLw0R8dLU6dn8+EqphCybf6j4YWb6R6AXj6YXt7GrjeFwA7rR5LJ4gAQgh/gOCG6cfaXQDmODkCcPAfs2Qwc59hLO4AAAAASUVORK5CYII="
+  },
+  {
+    "type": "notification",
+    "id": "52523f1c-dd37-43a8-b8c8-dcc63f18e434",
+    "title": "Mrs",
+    "date": "韵寒",
+    "desc": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "file": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJnSURBVDjLpZLvSxNxHMf9C3rqw6QHcVaIKHVEKQQuVtuaOrelbldTj5mrliQjYUtreqUrbYaObf6k9oOmTAIz8TbS6c7FdqPChBCLIq64hz0+Pn2/MaI6C6EHLziO7+f1eX8+328RABT9Dz8/+LCJ5CNUnI9YxHy0TeLDLVJ2xixujBvj6TEd+U8BHzHT+ahF4MMUn51pcmYmjMRG0EBsBPROLmDkOZ9RWPXW0rsKcGdcnHvczOQ/fitFNCDsiMsIDeJAylvLpLw6ITmgliUpyoWpeC5E8egggbiE6EY4EF2ITkQzomRlSMsnBtTxXRJcFLPTjU50qB5xo1B8vVCMU3QgahKMypkc0IgyQT7SImXGjbi77ZeuP0awPjOBZd4Ipmg9LN9SEslBrSQfIWSROL8eC6yFwqsFWfuFOQOENydAN6mC5zcVRIJRywWZqWaR8zXgEZSFwo7Wp41AxRrAsXgFJl+Ngm22FWo8VVDtxjv8Q5D2G9A96/ESSxAGBI0jT732QSA/Asy6Cx68vAuetBuOdpfLBamROnJtVC+sDGvxNe5HnMKRNWMKoCMUeLh+aArqoNJRBmX2Upi3n2yUPaQX987Rq8O1QnJQw7N9Z5xLPaeJRZeCwJFvr7qgousIfMr6YWftPrBuLcy2Hy+WPWW2/yyJiLOMWsTLYvtUEo5c3nkYDtkOwpfNR/B1KwTvlnsh1lYlRVuOFf8m+Bvz16rNK0Pn4f36MAhvpuED9xAyQQvcURLbexJg5jpOmNm+OthacMHbhR5IeQ0Qs5I7exZgntBkU8hU+XmpV4lGILdDVMU+/P87L+2y1u3sopMAAAAASUVORK5CYII="
+  },
+  {
+    "type": "event",
+    "id": "0d52adad-83a1-477f-91a0-cb3765030c65",
+    "title": "Mrs",
+    "date": "俞凯",
+    "desc": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAITSURBVDjLpZNNSJRBGMd/s7q50ZoWISZSRAgF5VpELFJ0CK9RneokEl1qO3URpFNCXqIO0aFLEF0iiAj6JBB0WYwOoikRJiXUYqbsumv7zvu+M/N02BV30YPgc5h5GPh/zMz/USLCVirCFqt+tZGfb8UUFxEJEBMiNkRMgBgfsT6EGms0YjwINU0Xn6haAmuIHrm0TkEEFFQWQCD3/PJ6B37+N9tFEOeVDxSIOEAhrDGoSAMSehtcwRhcMI8pfgLnIxKUdxeA04jTiPPYtucCLixtQGB9wCBOg4QVUDVYI64EYpBgAwdmZalsuUbZwzldIfHAeWUR8289gbMaPTOK8b+DDUAMVheI7W8pKzuNWA/E1byBWg3S4oteibZ0EO86DzhcMEdx/BkN+3aBlBie1YzMOZY9j6CU489K/tabOxOD9VVMhAuT5D6m2dl9FaUUTkKQEu+/FZny45w5fYL23R0MT79kbGr0djLV1hyp/u/Gk72E+b/kR+5VwBqxmtdfc3QdSmAjlsTeHqwKSR7tBri+FmWjUXURdhy/gphmiplX1MUSxFr7WCgsEVVxzh2+AcDNs4842NIJEKvKgSb37j5iNBJ6BN4XmM1Q+vyUQiFgOpthIpumv+cxQx/6iNU1AGi1mWlMptoG2w80DXR3nqKj9Rgz8+NkJtP8+rF8V212nJOptiHgGtAIFIGHYw+y/f8B3ntD1Kp2NbQAAAAASUVORK5CYII="
+  },
+  {
+    "type": "event",
+    "id": "35cdbc5e-93f6-4e4e-b87f-7b8e5f293169",
+    "title": "Rev",
+    "date": "宸赫",
+    "desc": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAH+SURBVDjLdZI7aFRREIa/k3u5cclGwiXEF9GInSCIoF0qa1/BynJdyBYhtaRJSrsFK4XtBCGFQRALm4BYKQg2ti5JQEh2hay66ObMmbG49+4jSwYOc4rzfzP/nHFmBsCL6uWrwDfGo7PcaM5wQrjnjxduABvAnXJ6hkdr63TbnwGYmr3Fy/Un/O3+AngFbC03mq+HATGwdfv+g4ul8jT++1fMjNDrAmBmLF6bZ+LcFczs4fs3b+8CY4BLpfJpjn4fICo0N+tgBhht+4Ka4ff3ODV7ITFInHPOCt85ADRgIkzMnEWDYKb8aHf52fmHAbp/iNsTdlo9gJvOuQNg18w0BjBVVAT1PdT3wIxW65B7a++I4qTf7hKwIfKp0Wg8W1lZqTvndnOAoMFjprn37ERxgvceEUFE8N6TpimVSmU1jmNqtVp9IgMEVDwmHg0BDYppBnPOEUURURThnAMgSRKq1eoqMBcXAMRjQTFRVA2VDBBFUT9PTk7S6XQIIZCm6WCIpllVFUUlYGpYCCMdFHfnHCIy8o3ZEH3ARDEJqIKKDbYthxQWitwHZNUzgOYWig6GIcdBgz0IhnrNZ1BY0PG9z4WFpQLw0R8dLU6dn8+EqphCybf6j4YWb6R6AXj6YXt7GrjeFwA7rR5LJ4gAQgh/gOCG6cfaXQDmODkCcPAfs2Qwc59hLO4AAAAASUVORK5CYII="
+  },
+  {
+    "type": "event",
+    "id": "52523f1c-dd37-43a8-b8c8-dcc63f18e434",
+    "title": "Mrs",
+    "date": "韵寒",
+    "desc": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJnSURBVDjLpZLvSxNxHMf9C3rqw6QHcVaIKHVEKQQuVtuaOrelbldTj5mrliQjYUtreqUrbYaObf6k9oOmTAIz8TbS6c7FdqPChBCLIq64hz0+Pn2/MaI6C6EHLziO7+f1eX8+328RABT9Dz8/+LCJ5CNUnI9YxHy0TeLDLVJ2xixujBvj6TEd+U8BHzHT+ahF4MMUn51pcmYmjMRG0EBsBPROLmDkOZ9RWPXW0rsKcGdcnHvczOQ/fitFNCDsiMsIDeJAylvLpLw6ITmgliUpyoWpeC5E8egggbiE6EY4EF2ITkQzomRlSMsnBtTxXRJcFLPTjU50qB5xo1B8vVCMU3QgahKMypkc0IgyQT7SImXGjbi77ZeuP0awPjOBZd4Ipmg9LN9SEslBrSQfIWSROL8eC6yFwqsFWfuFOQOENydAN6mC5zcVRIJRywWZqWaR8zXgEZSFwo7Wp41AxRrAsXgFJl+Ngm22FWo8VVDtxjv8Q5D2G9A96/ESSxAGBI0jT732QSA/Asy6Cx68vAuetBuOdpfLBamROnJtVC+sDGvxNe5HnMKRNWMKoCMUeLh+aArqoNJRBmX2Upi3n2yUPaQX987Rq8O1QnJQw7N9Z5xLPaeJRZeCwJFvr7qgousIfMr6YWftPrBuLcy2Hy+WPWW2/yyJiLOMWsTLYvtUEo5c3nkYDtkOwpfNR/B1KwTvlnsh1lYlRVuOFf8m+Bvz16rNK0Pn4f36MAhvpuED9xAyQQvcURLbexJg5jpOmNm+OthacMHbhR5IeQ0Qs5I7exZgntBkU8hU+XmpV4lGILdDVMU+/P87L+2y1u3sopMAAAAASUVORK5CYII="
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "ba1",
+    "head": "BA Hindi",
+    "title": "Department of Hindi",
+    "descsm": "“निजभाषाउन्नतिअहै, सबउन्नतिकोमूल, बिन निज भाषा ज्ञान के, मिटत न हिय को सूल”।",
+    "desc": "The department of Hindi has been in existence and serving the college since the year of its establishment. The department is serving different other streams and faculties of college as per guidelines and curriculum accredited by UGC and Himachal Pradesh University, Shimla. Our well qualified, experienced and exuberant faculty of Hindi department encourages the students to study Hindi language and literature. They take keen interest to polish the studying, writing listening and comprehension skills of students in Hindi language. This enhances the career prospects of students and equips them with skilled use of Hindi in the field of journalism, advertisement, creative writing in print as well as multi-media. The department is looking forward to enhance its arena in future and popularise Hindi language among more and more students.",
+    "instructors": [
+      { "name": "Dr. Kamal Kishore", "desig": "H.O.D., Associate Professor" },
+      { "name": "Dr. Kusam Lata", "desig": "Assistant Professor" }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "ba2",
+    "head": "BA English",
+    "title": "Department of English",
+    "descsm": "Be the Global Citizens of tommorow",
+    "desc": "It is well said, “He who knows no foreign language, knows nothing of his own'” No Educational institution can be imagined without language. Languages are the Integral part of existence of any institution. History of languages is as old as human history. Ever since the inception of SVSD Bhatoli college, in year 1970, English has been making its presence felt in the academic horizon, through many fold contribution. Healthy atmosphere is provided for intellectual and emotional growth of the students. The department has n eye on the demands of fast changing world and emphasis is being laid on updating and pedagogy to keep pace with modem times. Conscious efforts are made to nurture and groom the precious human resources of the nation to keep them on their toes about their duties and responsibilities.vdv",
+    "instructors": [
+      { "name": "Dr. Aarpan Sharma", "desig": "H.O.D., Associate Professor" },
+      { "name": "Mr.Amarjeet  Maan", "desig": "" }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "ba3",
+    "head": "BA Sanskrit",
+    "title": "Department of Sanskrit",
+    "descsm": "ॐ सर्वेभवन्तुसुखिनःसर्वेसन्तुनिरामयाः ।सर्वेभद्राणिपश्यन्तु माकश्चिद्दुःखभाग्भवेत्।",
+    "desc": "Sanskrit is said to be the mother of languages in the living world. It is the divined language for all sorts of perils and also a means for attaining all aims of human life. Sanskrit, we may say, is India and India is Sanskrit. It is unparalleled as a language in the world because of the fact that India’s philosophical and religious quest has been carried through this language. Indian Sanskrit literature is the key to open the doors of humanism, theology, astrology, astronomy, science and society. It is like a Pandora box to distribute wisdom and knowledge all over the world. Acknowledged as the most suitable language for computer programming, the study of Sanskrit offers fascinating avenues in Indology, Vedic Research, Teaching, Civil Services etc. The Department was established in year 1970.",
+    "instructors": [
+      { "name": "Dr.Amrit Kaushal", "desig": "Assistant Professor, MA. (SKT), NET, JRF, PH.D" }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "ba4",
+    "head": "BA History",
+    "title": "Department of History",
+    "descsm": "You have to know the Past to understand Current",
+    "desc": "The Department of History is among the oldest department of S.V.S.D (PG) College,  Bhatoli. The courses offered by the department are affiliated to Himachal Pradesh University, Shimla. The vision of the History department is to produce academic and professional leaders to strength the region and the country. The department normally acquires the latest books and journals for the college library where students can make the maximum use of them. Tutorials form an integral part of the teaching method in the department.  Historical map is also made to the learning process of the students. Since its inception the department is doing great job of putting efforts to achieve the academic goals of the students. Department has regular faculty members having specialization in Ancient Indian History, Medieval, Modern History.",
+    "instructors": [
+      {
+        "name": "Miss. Preeti Sharma",
+        "desig": "Assistant Professor, MA (History), NET, SET, MPhil (pursuing)"
+      }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "ba5",
+    "head": "BA Economics",
+    "title": "Department of Economics",
+    "descsm": "A Dynamic economy begins with a good Education",
+    "desc": "The Department of Economics was established in the institution in the early 1970s. Economics being a beautiful blend of Science and Art helps in providing the students with broad educational experience to understand the concepts and working of an economic system nationally and at a global level. Department of Economics in the institution offers the undergraduate course as of now, wherein the students can choose the subject along with the other combinations of subjects offered within the discipline of Arts. The students are taught a wide variety of sub-subjects like Microeconomics, Macroeconomics, Indian Economy, Money and Banking, Public Finance and others. The curriculum of the subject has been recommended, approved and designed by the Himachal Pradesh University. The department has well qualified faculty to provide in-depth exposure and support to students imparting them with the confidence and understanding to allow them to view the subject of Economics in an open and holistic perspective.",
+    "instructors": [
+      {
+        "name": "Miss. Swarima Verma",
+        "desig": "Assistant Professor (MA (Economics);NET, PhD (pursuing)"
+      }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "ba6",
+    "head": "BA Political Science",
+    "title": "Department of Political Science",
+    "descsm": "“The method of political science is the interpretation of life; its instrument is insight, a nice understanding of subtle, unformulated conditions.” ~ Woodrow Wilson.",
+    "desc": "Political Science is one of the major  and  important branches of Social sciences. The study of Political science helps to understand the democratic setup of any country of the world.This subject provides valuable information and ideas about State, Government, Political organizations and institutions to the individuals, beside it also helps to develop leadership skills. The subject has been running successfully in this institution since its inception. Political Science is offered as one the Discipline Specific Core Course for the degree course in the Arts faculty. The Department of Political Science is one of the important departments of SVSD PG College, Bhatoli. The department has till now produced a galaxy of scholars, statesmen, bureaucrats and leaders. The Department of Political Science is offering BA with Political Science under the Choice Based Credit System (CBCS). The degree program offered by the department of Political Science consists of Discipline Specific Core and Elective Courses, Skill Enhancement Courses and Generic Elective Courses.",
+    "instructors": [
+      {
+        "name": "Mr. Atul Kumar",
+        "desig": "Assistant Professor (M.A.,NET, SET, PhD Pursuing)"
+      }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "bcom1",
+    "head": "B.Commerce",
+    "title": "Department of Commerce",
+    "descsm": "The well educated and experienced faculty of commerce intends to enlighten students to be in right endeavor by developing their competencies with human values which led them to be successful.",
+    "desc": "S.V.S.D.(P.G.) college Bhatoli always been feted as one of the best Commerce college in entire Himachal Pradesh. The Department of commerce was set up in the year 1976 with a vision to impart Quality and value-based education in the field of commerce. The first batch of 15 students was pass out in 1979 with one university gold medal and two-three merit position. Year 1994 was the golden period for the college. In 1994 college snatched 6 merit positions out of Top 10 in university. The Department Of commerce has completed its 46 years.",
+    "instructors": [
+      {
+        "name": "Dr. Yogesh Phul",
+        "desig": "H.O.D.(Commerce)"
+      },
+      {
+        "name": "Dr. Kamal Kishore",
+        "desig": "Co-Ordinator"
+      },
+      {
+        "name": "Prof. Poonam",
+        "desig": "Assistant Professor"
+      },
+      {
+        "name": "Prof. Shivani",
+        "desig": "Assistant Professor"
+      },
+      {
+        "name": "Prof. Neha",
+        "desig": "Assistant Professor"
+      },
+      {
+        "name": "Prof. Shivati Rana",
+        "desig": "Assistant Professor"
+      },
+      {
+        "name": "Prof. Komal",
+        "desig": "Assistant Professor"
+      }
+    ],
+    "seats": "TBA",
+    "bod": "Students seeking admission to 1st year of three-year B.Com. degree programme affiliated to Himachal Pradesh University, Shimla shall have to study all compulsory and elective subjects as offered by the university.",
+    "elig": "Admission shall be made purely on the basis of academic merit i.e., the marks secured by the students in 10+2 examination.",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "bsc1",
+    "head": "BSC Physics",
+    "title": "Department of Physics",
+    "descsm": "An Apple Might fall on your Head",
+    "desc": "Welcome to the website of the Department of Physics. This page is intended to introduce you to our faculty and activities. S.V.S.D. Department of Physics in this college was established in 1975 with the introduction of the B.Sc. course. It is housed in a large area of college having two well-equipped laboratories and one computational laboratory with internet access. During an academic year, it serves the academic needs of approximately 800 undergraduate students specialising in Physics. The college library contains approximately 2500 books related to Physics. Since the inception of this department, a large number of students have been graduated excelling in various fields and made the institution proud. Department of Physics teaches students the fundamentals of physics. In this department, education entails the enrichment of physics principles as well as overall personality development of the student. As a result, our students are at par with the best institutes of the state. The faculty of this department has adopted the following specific programme outcomes to be achieved as part of the preparation process: Ability to apply mathematical and scientific knowledge, ability to plan and carry out experiments, as well as analyse and interpret data, ability to work in multidisciplinary teams, ability to recognise, formulate, and solve physics related problems, ability to effectively communicate, etc.",
+    "instructors": [
+      {
+        "name": "Naresh Bala",
+        "desig": "(M.Sc., M.Phil) (Associate Professor, HOD)"
+      },
+      {
+        "name": "Vivek",
+        "desig": "(M.Sc., M.Phil, Ph.D., NET(CSIR-JRF), SET, GATE ) (Assistant Professor)"
+      },
+      {
+        "name": "Moni Sharma",
+        "desig": "(M.Sc.) (Assistant Professor)"
+      }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "bsc2",
+    "head": "BSC Chemistry",
+    "title": "Department of Chemistry",
+    "descsm": "Department of Chemistry came into existence with the introduction of science classes at the degree level in 1979",
+    "desc": "Department of Chemistry came into existence with the introduction of science classes at the degree level in 1979 and it is one of the pioneer departments in Physical Sciences where maximum number of science students is nurtured with overall development of students. Department has well qualified teaching faculty and non- teaching staff. It has well equipped laboratories and makes students well equipped in the subject to meet the latest requirements. Department of chemistry has brought laurels in all spheres of life and brought name and fame at the national and international level in academics, management, social works. Department is committed to provide excellent support to students in all spheres of life.",
+    "instructors": [
+      {
+        "name": "Anup Kumar Sharma",
+        "desig": "M.Sc. , M.Phil (Associate Professor)"
+      },
+      {
+        "name": "D.P. Thakur",
+        "desig": "M.Sc. , M.Phil (Associate Professor)"
+      },
+      {
+        "name": "Prof .Lily Thakur",
+        "desig": "M.Sc. , M.Phil (Associate Professor)"
+      }
+    ],
+    "seats": "",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "bsc3",
+    "head": "BSC Botany",
+    "title": "Department of Botany",
+    "descsm": "Department of botany established in the year 1979. Botany department of SVSD PG College is running academic program at UG level",
+    "desc": "The department consists of a department office, a laboratory and a museum. The lab is well maintained and equipped with microscope, specimens, and other experimental apparatuses. The department is enriched with learning resources such as charts, museum, specimens, permanent slides, models and many more. The main objective of this course is to not only provide academic knowledge but also enhance knowledge of botany at aesthetic level. To enhance student’s perception and observational skills And to know the intricacy of nature’s creation and its perfection.",
+    "instructors": [
+      {
+        "name": "Naina Devi",
+        "desig": "Assistant Professor Botany M.Sc, HP SET, GATE (HOD)"
+      },
+      {
+        "name": "Ravi Kumar",
+        "desig": "Lab attendant  MA"
+      }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "bsc4",
+    "head": "BSC Mathematics",
+    "title": "Department of Mathematics",
+    "descsm": "Department of mathematics came into the existence with the introduction of BA with math classes in the year 1970",
+    "desc": "The area of mathematics expanded with the introduction of Bsc non medical stream in the year 1979. It is one of the leading departments of physical sciences. Where the overall development of  student is on the top most priority. The adoption of new technology in more and more organization and industrial concern has increased the demand of mathematics. Keeping this in view, the college took pride in introducing the postgraduate degree of science in the subject of mathematics which was introduced during the session 2000-2001 with the intake capacity of 30 students. Department of mathematics has brought Laurels in academics as the number of students got the university positions. Also there is a list of students of MSc mathematics who got the gold medal in University examination. Keeping in the view of academic records of the department, University increased the number of intake capacity from 30 to 45 students from the session 2021-2022. Department has produced the number of successful students who are serving the nation in various disciplines.",
+    "instructors": [
+      {
+        "name": "Shweta Manan",
+        "desig": "MSc, MPhil, PhD, SET, GOLDMEDALIST"
+      },
+      {
+        "name": "Umesh Lath",
+        "desig": "MSc, MPhil, pursuing PhD"
+      },
+
+      {
+        "name": "Anu Verma",
+        "desig": "MSc, pursuing PhD"
+      }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": ""
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "bed1",
+    "head": "B.Education",
+    "title": "Department of Education",
+    "descsm": "SVSD PG College, Bhatoli is a service oriented Institution dedicated to the mission of developing employment generating resources",
+    "desc": "SVSD PG College, Bhatoli is a service oriented Institution dedicated to the mission of developing employment generating resources among the youth of Himachal Pradesh so as to gainfully bind them to the cause of National Reconstruction. Keeping in mind the employment avenues the course generates and the facts that more than 500 graduates pass out from this institution alone in arts, commerce and science every year, the college management decided to introduce B.Ed. in the college in 1999-2000.",
+    "instructors": [
+      {
+        "name": "Mrs. Sangeeta  Singh Hada",
+        "desig": "M.A.(Eng.)M.A. (History), M.Ed., M.Phil.  NET Qualified"
+      },
+      {
+        "name": "Sh. Rakesh Kumar",
+        "desig": "B.Sc., M.Ed., N ET Qualified"
+      },
+
+      {
+        "name": "Ms. Priyanka",
+        "desig": " M.A. (Eco.), M.Ed."
+      },
+      {
+        "name": "Sh. Mohnish Gautam",
+        "desig": "M.Com., M.Ed."
+      },
+      {
+        "name": "Mrs. Jyoti ",
+        "desig": "M.A., M.Ed., M.Phil, NET Qualified"
+      }
+    ],
+    "seats": "TBA",
+    "bod": "",
+    "elig": "",
+    "file": "/assets/products/bed.pdf"
+  },
+  {
+    "dura": "3 Years",
+    "type": "course",
+    "id": "bca1",
+    "head": "B.Computer Applications",
+    "title": "Department of Computer Application",
+    "descsm": "The department of Computer Science was established in the year 1996-97. Next year in 1997-98 a “certificate course in computer” under Human Resource Development (H,R.D.) Scheme of Govt",
+    "desc": "The department of Computer Science was established in the year 1996-97. Next year in 1997-98 a “certificate course in computer” under Human Resource Development (H,R.D.) Scheme of Govt, of India was started, Keeping in view the increasing demand for computer learning of this area, “Bachelor of Computer Application” (B.C.A.) was introduced in the year 1999-2000. These computer courses are designed to develop young students into Software Professionals with global perspective. The Computer department consists of department office, lecture rooms and three fully air- conditioned spacious and sound proof computer labs. There are 76 Computers connected with each other through Local Area Network (LAN) and all these computers are having latest configuration and high speed. The department provides its students a golden opportunity to work on lastest operating systems. Computer labs are well equipped with application software and packages mentioned in the syllabus of the above mentioned courses as well as out of courses to march our students ahead of the world. The hallmark of this department has been exclusive by focused approach on practical knowledge without which theoretical knowledge loses its substances & relevance. The qualified experience & dedicated faculty gives extra time to students other than their practical time of work on Computer Seminars, industrial visits, guests and lectures and other extra currJcular activities to impart extra knowledge and professional skills to its students are arranged by the college. The Computer department is the part of “WORLD WIDE WEB”. Internet facility is provided to the students so that they can keep pace with the latest technology and development taking place in the world",
+    "instructors": [
+      {
+        "name": "Prof. DP Thakur",
+        "desig": "Co-Ordinator"
+      },
+      {
+        "name": "Arvind Rana",
+        "desig": "B.Sc., M.Ed., N ET Qualified"
+      },
+
+      {
+        "name": "Bindu Sharma",
+        "desig": "M.A., MCA, PhD(Pursuing)"
+      },
+      {
+        "name": "Samriti Rana",
+        "desig": "B.Tech(CS), M.Tech(CS), PhD(course work completed)"
+      }
+    ],
+    "seats": "120",
+    "bod": "The admission to BCA course will be made on the basis of merit of the 12thexamination. As per H.P University rules 75% seats will be filled out the candidates who have passed their 10+2 examination from the school situated in Himachal Pradesh irrespective of the Board. Remaining 25% seats will be filled on all India basis. Other reservation rules of H.P University shall be applicable.",
+    "elig": "Candidates who have passed 10+2 examination from H.P Board/CBSE/ICSE or any other examination considered equivalent to 10+2, by the Himachal Pradesh University Shimla, with 40% Marks (35% marks for SC/ST category) shall be eligible. Maximum age limit for admission to BCA course is 21 years for general category, 24 years for SC/ST category and 23 years for girls candidates, as on the 1st July of the year concerned. The Vice Chancellor may permit age relaxation upto maximum of three months.",
+    "file": ""
+  }
+]
