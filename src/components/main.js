@@ -111,7 +111,7 @@ const Main = (props) => {
 
           <div className="col-lg-6 col-12" data-aos="fade-up">
             <img
-              style={{ height: "80vh", objectFit: "cover" }}
+              style={{ height: "100%", objectFit: "cover" }}
               className="img-fluid rounded shadow"
               src="/assets/imgs/p1.jpeg"
             ></img>
@@ -347,7 +347,7 @@ const Main = (props) => {
         {/* itemVid End===> */}
       </div>
       <div className="row position-relative bg-dark mb-0 mt-5 mx-0">
-        <div className="container py-5 ">
+        <div className="container py-4 ">
           <div className="imageGrid " style={{ position: "relative" }} id="grid1">
             {notdataset
               .filter((e) => e.type == "gallery")
@@ -406,14 +406,11 @@ const Main = (props) => {
           backgroundPosition: "center",
         }}
       >
-        <div className="container" style={{ overflowX: "hidden" }} id="about">
-          <h2
-            className=" display-4 text-light fw-bold text-center mt-5 pt-lg-5 pt-1"
-            data-aos="fade-up"
-          >
+        <div className="container" style={{ overflowX: "hidden" }} id="about" data-aos="fade-up">
+          <h2 className=" display-4 text-light fw-bold text-center mt-5 pt-lg-5 pt-1">
             About Our <span style={{ color: "#af9fff" }}>College</span>
           </h2>
-          <p className="text-lead opacity-75 text-center text-light pt-5" data-aos="fade-up">
+          <p className="text-lead opacity-75 text-center text-light pt-lg-5 pt-3 h-100">
             The college is located on the outskirts of Naya Nangal On Nangal-Santokhgarh road, at a
             distance of 2 Km, from Mehatpur ( One of the leading industrial towns of H.P) and 3 Km
             from Nangal. This college with quiet and serene atmosphere lies in the lap of beautiful

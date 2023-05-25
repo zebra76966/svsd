@@ -257,11 +257,13 @@ const Header = (props) => {
                 <i className="fa fa-user mx-4" style={{ cursor: "pointer" }}></i>
               </Link>
             )}
-            <i
-              className="fa fa-search"
-              onClick={() => setToggle(!stoggle)}
-              style={{ cursor: "pointer" }}
-            ></i>
+            <a className="px-2 link text-dark">
+              <i
+                className="fa fa-search "
+                onClick={() => setToggle(!stoggle)}
+                style={{ cursor: "pointer" }}
+              ></i>
+            </a>
           </div>
         </div>
       </nav>
@@ -292,19 +294,19 @@ const Header = (props) => {
               {data
                 .filter((e) => e.type == "course")
                 .map((pini, i) => {
-                  if (pini.head.toLowerCase().includes(search) && search.length !== 0) {
+                  if (
+                    pini.head.toLowerCase().includes(search.toLowerCase()) &&
+                    search.length !== 0
+                  ) {
                     return (
                       <Link to={`/product/${pini.id}`} className="link">
                         <div
                           className="sBox text-dark bg-light w-100 mx-auto d-flex align-items-center justify-content-between p-3 border border-1"
                           onClick={() => setToggle(!stoggle)}
                         >
-                          <img
-                            src={"https://picsum.photos/seed/picsum/200"}
-                            style={{ width: "10%" }}
-                          />
-                          {pini.head}
-                          <span>{pini.title}</span>
+                          <img src={pini.thumb} style={{ width: "10%" }} />
+
+                          <p>{pini.head}</p>
                         </div>
                       </Link>
                     );
