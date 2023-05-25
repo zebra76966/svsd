@@ -33,6 +33,20 @@ const Header = (props) => {
   }, [props.check]);
 
   const [offset, setOffset] = useState(0);
+  const [isWindowSize991, setIsWindowSize991] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsWindowSize991(window.matchMedia("(max-width: 991px)").matches);
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Check initial window size on component mount
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset);
@@ -48,16 +62,36 @@ const Header = (props) => {
 
       <nav
         className={`navbar navbar-expand-lg py-lg-4 px-lg-3 ${
-          offset > 200 || loc.pathname !== "/"
+          isWindowSize991 || offset > 200 || loc.pathname !== "/" || isWindowSize991
             ? "navbar-light bg-light shadow-lg"
             : "navbar-dark bg-none "
         }`}
         style={{
           transition: "all 0.5s ease-in-out",
-          top: offset > 200 || loc.pathname !== "/" ? "0" : "2%",
+          top:
+            isWindowSize991 || offset > 200 || loc.pathname !== "/" || isWindowSize991 ? "0" : "2%",
         }}
       >
         <div className="container-fluid d-flex justify-content-between">
+          <Link
+            to="/"
+            className="navbar-brand align-middle m-0"
+            onClick={() => setPage("/")}
+            id="mobbrand"
+          >
+            <img
+              src={`/assets/imgs/${
+                isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "svsdBW.svg" : "svsdW.svg"
+              }`}
+              className="img-fluid m-0 p-0"
+              style={{
+                aspectRatio: 1,
+                height: isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "50px" : "200px",
+                width: "auto",
+                transition: "all 0.5s ease-in-out",
+              }}
+            />
+          </Link>
           <div>
             <button
               className="navbar-toggler"
@@ -92,16 +126,19 @@ const Header = (props) => {
                   Courses
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" id="deskbrand">
                 <Link to="/" className="navbar-brand align-middle m-0" onClick={() => setPage("/")}>
                   <img
                     src={`/assets/imgs/${
-                      offset > 200 || loc.pathname !== "/" ? "svsdBW.svg" : "svsdW.svg"
+                      isWindowSize991 || offset > 200 || loc.pathname !== "/"
+                        ? "svsdBW.svg"
+                        : "svsdW.svg"
                     }`}
                     className="img-fluid m-0 p-0"
                     style={{
                       aspectRatio: 1,
-                      height: offset > 200 || loc.pathname !== "/" ? "50px" : "200px",
+                      height:
+                        isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "50px" : "200px",
                       width: "auto",
                       transition: "all 0.5s ease-in-out",
                     }}
@@ -142,9 +179,10 @@ const Header = (props) => {
           <div
             className={`bag px-3 fs-5 d-flex justify-content-between 
           ${
-            offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"
+            isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"
           } fs-4 position-absolute end-0  pe-4 align-items-center`}
-            style={{ top: offset > 200 || loc.pathname !== "/" ? "21%" : "40%" }}
+            style={{ top: isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "30%" : "43%" }}
+            id="logs"
           >
             {/* <div className="position-relative ">
               <Link to="/cart" className="link text-dark">
@@ -211,7 +249,9 @@ const Header = (props) => {
               <Link
                 to="/user/main"
                 className={` link ${
-                  offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"
+                  isWindowSize991 || offset > 200 || loc.pathname !== "/"
+                    ? "text-dark"
+                    : "text-light"
                 }`}
               >
                 <i className="fa fa-user mx-4" style={{ cursor: "pointer" }}></i>

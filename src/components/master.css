@@ -203,6 +203,29 @@ a {
   mix-blend-mode: screen;
 }
 
+#mobbrand {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+#deskbrand {
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 991px) {
+  #mobbrand {
+    display: block;
+  }
+  #deskbrand {
+    display: none !important;
+  }
+  #logs {
+    right: 8% !important;
+    top: 4% !important;
+    position: fixed !important;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .clipVid {
     font-size: 60px !important;
@@ -232,6 +255,16 @@ a {
   }
   #va img {
     width: 50px;
+  }
+  #logs {
+    right: 12% !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #logs {
+    right: 15% !important;
+    top: 3% !important;
   }
 }
 

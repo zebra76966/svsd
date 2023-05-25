@@ -407,7 +407,10 @@ const Main = (props) => {
         }}
       >
         <div className="container" style={{ overflowX: "hidden" }} id="about">
-          <h2 className=" display-4 text-light fw-bold text-center mt-5 pt-5" data-aos="fade-up">
+          <h2
+            className=" display-4 text-light fw-bold text-center mt-5 pt-lg-5 pt-1"
+            data-aos="fade-up"
+          >
             About Our <span style={{ color: "#af9fff" }}>College</span>
           </h2>
           <p className="text-lead opacity-75 text-center text-light pt-5" data-aos="fade-up">

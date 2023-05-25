@@ -39,7 +39,8 @@ const Card = (props) => {
       <Link to={`/product/${props.id}`} className="link">
         <img
           src={props.record.thumb}
-          className="card-img-top"
+          className="card-img-top "
+          style={{ objectFit: "cover", height: "200px" }}
           alt="..."
           onMouseEnter={() => setMouse(1)}
           onMouseLeave={() => setMouse(0)}

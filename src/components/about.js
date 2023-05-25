@@ -22,7 +22,10 @@ const About = () => {
           }}
         >
           <div className="container" style={{ overflowX: "hidden" }} id="about">
-            <h2 className=" display-4 text-light fw-bold text-center mt-5 pt-5" data-aos="zoom-out">
+            <h2
+              className=" display-4 text-light fw-bold text-center mt-5 pt-lg-5 pt-2"
+              data-aos="zoom-out"
+            >
               About Our <span style={{ color: "#af9fff" }}>College</span>
             </h2>
             <p className="text-lead opacity-75 text-center text-light pt-5" data-aos="fade-up">

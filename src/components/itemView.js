@@ -62,7 +62,11 @@ const ProdView = (props) => {
               })}
           </p>
           <img
-            src="/assets/imgs/3.jpg"
+            src={ndata
+              .filter((e) => e.id == params.id)
+              .map((ini) => {
+                return ini.thumb;
+              })}
             className="w-100 rounded shadow"
             style={{ objectFit: "cover", maxHeight: "500px" }}
           />
@@ -168,7 +172,7 @@ const ProdView = (props) => {
             if (ini.id == params.id) {
               return ini.instructors.map((jini) => {
                 return (
-                  <div className="col-lg-4 col-12" data-aos="fade-up">
+                  <div className="col-lg-4 col-12  mb-5" data-aos="fade-up">
                     <div
                       className="card w-100 border-0 shadow rounded-4 text-light h-100"
                       style={{ background: "#af9fff" }}
