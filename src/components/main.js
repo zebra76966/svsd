@@ -113,7 +113,7 @@ const Main = (props) => {
             <img
               style={{ height: "80vh", objectFit: "cover" }}
               className="img-fluid rounded shadow"
-              src="http://svsdbhatoli.in/wp-content/uploads/2023/04/WhatsApp-Image-2023-04-04-at-11.29.16.jpeg"
+              src="/assets/imgs/p1.jpeg"
             ></img>
           </div>
         </div>
