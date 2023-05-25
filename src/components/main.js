@@ -425,19 +425,14 @@ const Main = (props) => {
       <div className="container ">
         <div
           id="va"
-          className="d-flex justify-content-between w-100 my-5 py-2"
+          className="d-flex justify-content-between w-100 my-5 py-2 "
           style={{ mixBlendMode: "luminosity" }}
         >
-          <img
-            src="/assets/imgs/logo1.png"
-            style={{ aspectRatio: 1 }}
-            className="img-fluid"
-            data-aos="zoom-in"
-          />
-          <img src="/assets/imgs/logo2.png" style={{ aspectRatio: 1 }} data-aos="zoom-in" />
-          <img src="/assets/imgs/logo3.png" style={{ aspectRatio: 1 }} data-aos="zoom-in" />
-          <img src="/assets/imgs/logo4.png" style={{ aspectRatio: 1 }} data-aos="zoom-in" />
-          <img src="/assets/imgs/logo5.gif" style={{ aspectRatio: 1 }} data-aos="zoom-in" />
+          <img src="/assets/imgs/logo1.png" style={{ aspectRatio: 1 }} className="img-fluid" />
+          <img src="/assets/imgs/logo2.png" style={{ aspectRatio: 1 }} className="img-fluid" />
+          <img src="/assets/imgs/logo3.png" style={{ aspectRatio: 1 }} className="img-fluid" />
+          <img src="/assets/imgs/logo4.png" style={{ aspectRatio: 1 }} className="img-fluid" />
+          <img src="/assets/imgs/logo5.gif" style={{ aspectRatio: 1 }} className="img-fluid" />
         </div>
       </div>
 

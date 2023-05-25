@@ -134,17 +134,17 @@ const Footer = () => {
               </div>
             </form>
           </div>
+          <div className="row bg-dark text-light text-center mx-0 my-0 w-100">
+            <p>
+              Created with ❤️ by{" "}
+              <a href="https://github.com/zebra76966" className="text-warning fw-bold">
+                zeb_corp
+              </a>
+            </p>
+          </div>
         </footer>
       </div>
       <Outlet />
-      <div className="row bg-dark text-light">
-        <p>
-          Created with ❤️ by{" "}
-          <a href="https://github.com/zebra76966" className="text-warning fw-bold">
-            zeb_corp
-          </a>
-        </p>
-      </div>
     </div>
   );
 };
