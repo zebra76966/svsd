@@ -137,6 +137,14 @@ const Footer = () => {
         </footer>
       </div>
       <Outlet />
+      <div className="row bg-dark text-light">
+        <p>
+          Created with ❤️ by{" "}
+          <a href="https://github.com/zebra76966" className="text-warning fw-bold">
+            zeb_corp
+          </a>
+        </p>
+      </div>
     </div>
   );
 };
