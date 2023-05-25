@@ -90,7 +90,7 @@ const Carousel = (props) => {
             </div>
 
             <div className="carousel-item">
-              <img src="/assets/imgs/7.jpg" className="d-block img1" alt="..." />
+              <img src="/assets/imgs/7.JPG" className="d-block img1" alt="..." />
               <div className="carousel-caption d-block">
                 <h5 className="fs-1 fw-bold">
                   <strong>LEARN TO</strong>{" "}
