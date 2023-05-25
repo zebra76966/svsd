@@ -153,7 +153,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 99;
+  z-index: 2099;
 }
 .loader div {
   width: 200px;

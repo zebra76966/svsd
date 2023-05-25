@@ -257,7 +257,11 @@ const Header = (props) => {
                 <i className="fa fa-user mx-4" style={{ cursor: "pointer" }}></i>
               </Link>
             )}
-            <a className="px-2 link text-dark">
+            <a
+              className={`px-2 link ${
+                isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"
+              }`}
+            >
               <i
                 className="fa fa-search "
                 onClick={() => setToggle(!stoggle)}
