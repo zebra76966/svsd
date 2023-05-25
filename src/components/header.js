@@ -143,8 +143,8 @@ const Header = (props) => {
             className={`bag px-3 fs-5 d-flex justify-content-between 
           ${
             offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"
-          } fs-4 position-absolute end-0  mt-3 mt-lg-4 pe-4 align-items-center`}
-            style={{ top: offset > 200 || loc.pathname !== "/" ? "8%" : "28%" }}
+          } fs-4 position-absolute end-0  pe-4 align-items-center`}
+            style={{ top: offset > 200 || loc.pathname !== "/" ? "21%" : "40%" }}
           >
             {/* <div className="position-relative ">
               <Link to="/cart" className="link text-dark">

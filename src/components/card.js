@@ -38,7 +38,7 @@ const Card = (props) => {
     <div className="card border-0 shadow h-100">
       <Link to={`/product/${props.id}`} className="link">
         <img
-          src={"https://picsum.photos/seed/picsum/200"}
+          src={props.record.thumb}
           className="card-img-top"
           alt="..."
           onMouseEnter={() => setMouse(1)}

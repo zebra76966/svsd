@@ -95,7 +95,7 @@ const Main = (props) => {
       <Carousel images={true} />
       <div className="container my-5 " style={{ overflowX: "hidden" }}>
         <div className="row">
-          <div className="pt-5 pb-3 col-lg-6 col-12" data-aos="zoom-out">
+          <div className="pt-5 pb-3 col-lg-6 col-12" data-aos="fade-up">
             <h2 className="display-5 text-dark fw-bold text-start mt-5 pt-5">
               From <span style={{ color: "#af9fff" }}>Principal's Desk</span>
             </h2>
@@ -122,7 +122,7 @@ const Main = (props) => {
       <div className="bg-light w-100">
         <div className="container">
           <div className="pt-5 pb-3">
-            <h2 className=" display-4 text-dark fw-bold text-center mt-5 pt-5" data-aos="zoom-out">
+            <h2 className=" display-4 text-dark fw-bold text-center mt-5 pt-5" data-aos="fade-up">
               Our <span style={{ color: "#af9fff" }}>Courses</span>
             </h2>
           </div>
@@ -157,7 +157,7 @@ const Main = (props) => {
       </div>
 
       <div className="pt-5 pb-3" style={{ overflowX: "hidden" }}>
-        <h2 className=" display-4 text-dark fw-bold text-center mt-5 pt-5" data-aos="zoom-out">
+        <h2 className=" display-4 text-dark fw-bold text-center mt-5 pt-5" data-aos="fade-up">
           Notice <span style={{ color: "#af9fff" }}>Board</span>
         </h2>
       </div>
@@ -167,7 +167,7 @@ const Main = (props) => {
           <div className="row mb-5">
             <div className="col-lg-7 col-12">
               <div className="d-flex justify-content-between align-items-center  mt-5 pb-3 pt-5">
-                <h3 className=" display-6 text-light fw-bold text-start" data-aos="zoom-out">
+                <h3 className=" display-6 text-light fw-bold text-start" data-aos="fade-up">
                   Upcoming Events
                 </h3>
                 {cookies.uToken !== undefined &&
@@ -250,7 +250,7 @@ const Main = (props) => {
 
             <div className="col-lg-5 col-12" style={{ overflowX: "hidden" }}>
               <div className="d-flex justify-content-between align-items-center  mt-5 pb-3 pt-5">
-                <h3 className=" display-6 text-light fw-bold text-start" data-aos="zoom-out">
+                <h3 className=" display-6 text-light fw-bold text-start" data-aos="fade-up">
                   Notifications
                 </h3>
                 {cookies.uToken !== undefined &&
@@ -302,7 +302,7 @@ const Main = (props) => {
       </div>
       <div className="container" style={{ overflowX: "hidden" }}>
         <div className="pt-5 pb-3">
-          <h2 className=" display-4 text-dark fw-bold text-center " data-aos="zoom-out">
+          <h2 className=" display-4 text-dark fw-bold text-center " data-aos="fade-up">
             Sneek <span style={{ color: "#af9fff" }}>Peek</span>
           </h2>
         </div>
@@ -407,7 +407,7 @@ const Main = (props) => {
         }}
       >
         <div className="container" style={{ overflowX: "hidden" }} id="about">
-          <h2 className=" display-4 text-light fw-bold text-center mt-5 pt-5" data-aos="zoom-out">
+          <h2 className=" display-4 text-light fw-bold text-center mt-5 pt-5" data-aos="fade-up">
             About Our <span style={{ color: "#af9fff" }}>College</span>
           </h2>
           <p className="text-lead opacity-75 text-center text-light pt-5" data-aos="fade-up">

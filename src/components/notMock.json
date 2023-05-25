@@ -48,6 +48,7 @@
     "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJnSURBVDjLpZLvSxNxHMf9C3rqw6QHcVaIKHVEKQQuVtuaOrelbldTj5mrliQjYUtreqUrbYaObf6k9oOmTAIz8TbS6c7FdqPChBCLIq64hz0+Pn2/MaI6C6EHLziO7+f1eX8+328RABT9Dz8/+LCJ5CNUnI9YxHy0TeLDLVJ2xixujBvj6TEd+U8BHzHT+ahF4MMUn51pcmYmjMRG0EBsBPROLmDkOZ9RWPXW0rsKcGdcnHvczOQ/fitFNCDsiMsIDeJAylvLpLw6ITmgliUpyoWpeC5E8egggbiE6EY4EF2ITkQzomRlSMsnBtTxXRJcFLPTjU50qB5xo1B8vVCMU3QgahKMypkc0IgyQT7SImXGjbi77ZeuP0awPjOBZd4Ipmg9LN9SEslBrSQfIWSROL8eC6yFwqsFWfuFOQOENydAN6mC5zcVRIJRywWZqWaR8zXgEZSFwo7Wp41AxRrAsXgFJl+Ngm22FWo8VVDtxjv8Q5D2G9A96/ESSxAGBI0jT732QSA/Asy6Cx68vAuetBuOdpfLBamROnJtVC+sDGvxNe5HnMKRNWMKoCMUeLh+aArqoNJRBmX2Upi3n2yUPaQX987Rq8O1QnJQw7N9Z5xLPaeJRZeCwJFvr7qgousIfMr6YWftPrBuLcy2Hy+WPWW2/yyJiLOMWsTLYvtUEo5c3nkYDtkOwpfNR/B1KwTvlnsh1lYlRVuOFf8m+Bvz16rNK0Pn4f36MAhvpuED9xAyQQvcURLbexJg5jpOmNm+OthacMHbhR5IeQ0Qs5I7exZgntBkU8hU+XmpV4lGILdDVMU+/P87L+2y1u3sopMAAAAASUVORK5CYII="
   },
   {
+    "thumb": "https://images.unsplash.com/photo-1657302155485-790b74d0b5d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "ba1",
@@ -65,6 +66,7 @@
     "file": ""
   },
   {
+    "thumb": "https://images.unsplash.com/photo-1543109740-4bdb38fda756?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "ba2",
@@ -82,6 +84,7 @@
     "file": ""
   },
   {
+    "thumb": "https://images.newindianexpress.com/uploads/user/imagelibrary/2022/7/27/w1200X800/Capture.JPG",
     "dura": "3 Years",
     "type": "course",
     "id": "ba3",
@@ -98,6 +101,7 @@
     "file": ""
   },
   {
+    "thumb": "https://images.unsplash.com/photo-1580136579395-4bbb9ffdc4ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1020&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "ba4",
@@ -117,6 +121,7 @@
     "file": ""
   },
   {
+    "thumb": "https://images.unsplash.com/photo-1565373677928-90e963765eac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "ba5",
@@ -136,6 +141,7 @@
     "file": ""
   },
   {
+    "thumb": "https://theleaflet.in/wp-content/uploads/2020/08/banner-3-1539x1009.jpg",
     "dura": "3 Years",
     "type": "course",
     "id": "ba6",
@@ -155,6 +161,7 @@
     "file": ""
   },
   {
+    "thumb": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "bcom1",
@@ -198,6 +205,7 @@
     "file": ""
   },
   {
+    "thumb": "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "bsc1",
@@ -252,6 +260,7 @@
     "file": ""
   },
   {
+    "thumb": "https://plus.unsplash.com/premium_photo-1661434821569-4f98f7d4ba13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "bsc3",
@@ -276,6 +285,7 @@
   },
 
   {
+    "thumb": "https://images.unsplash.com/photo-1632571401005-458e9d244591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "bsc4",
@@ -304,6 +314,7 @@
     "file": ""
   },
   {
+    "thumb": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "bed1",
@@ -340,6 +351,7 @@
     "file": "/assets/products/bed.pdf"
   },
   {
+    "thumb": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
     "dura": "3 Years",
     "type": "course",
     "id": "bca1",
