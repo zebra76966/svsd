@@ -348,7 +348,11 @@ const Main = (props) => {
       </div>
       <div className="row position-relative bg-dark mb-0 mt-5 mx-0">
         <div className="container py-4 ">
-          <div className="imageGrid " style={{ position: "relative" }} id="grid1">
+          <div
+            className="imageGrid "
+            style={{ position: "relative", overflowY: "hidden" }}
+            id="grid1"
+          >
             {notdataset
               .filter((e) => e.type == "gallery")
               .slice(0, notdataset.length)

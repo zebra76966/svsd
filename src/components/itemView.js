@@ -167,7 +167,7 @@ const ProdView = (props) => {
             })}
         </div>
 
-        <div className="row">
+        <div className="row mt-5">
           {ndata.map((ini) => {
             if (ini.id == params.id) {
               return ini.instructors.map((jini) => {
@@ -177,7 +177,12 @@ const ProdView = (props) => {
                       className="card w-100 border-0 shadow rounded-4 text-light h-100"
                       style={{ background: "#af9fff" }}
                     >
-                      <img src="/assets/imgs/avatar.jfif" className="card-img-top" alt="..." />
+                      <img
+                        src={jini.dpimg}
+                        className="card-img-top"
+                        alt="..."
+                        style={{ height: "350px", objectFit: "cover" }}
+                      />
                       <div className="card-body py-3">
                         <h5 className="card-title py-2">{jini.name}</h5>
                         <p className="text-lead">{jini.desig}</p>

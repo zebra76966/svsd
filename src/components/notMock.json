@@ -57,8 +57,16 @@
     "descsm": "“निजभाषाउन्नतिअहै, सबउन्नतिकोमूल, बिन निज भाषा ज्ञान के, मिटत न हिय को सूल”।",
     "desc": "The department of Hindi has been in existence and serving the college since the year of its establishment. The department is serving different other streams and faculties of college as per guidelines and curriculum accredited by UGC and Himachal Pradesh University, Shimla. Our well qualified, experienced and exuberant faculty of Hindi department encourages the students to study Hindi language and literature. They take keen interest to polish the studying, writing listening and comprehension skills of students in Hindi language. This enhances the career prospects of students and equips them with skilled use of Hindi in the field of journalism, advertisement, creative writing in print as well as multi-media. The department is looking forward to enhance its arena in future and popularise Hindi language among more and more students.",
     "instructors": [
-      { "name": "Dr. Kamal Kishore", "desig": "H.O.D., Associate Professor" },
-      { "name": "Dr. Kusam Lata", "desig": "Assistant Professor" }
+      {
+        "name": "Dr. Kamal Kishore",
+        "desig": "H.O.D., Associate Professor",
+        "dpimg": "/assets/staff/kamal kishore.jpg"
+      },
+      {
+        "name": "Dr. Kusam Lata",
+        "desig": "Assistant Professor",
+        "dpimg": "/assets/staff/Kusum Thakur.jpg"
+      }
     ],
     "seats": "TBA",
     "bod": "",
@@ -75,8 +83,12 @@
     "descsm": "Be the Global Citizens of tommorow",
     "desc": "It is well said, “He who knows no foreign language, knows nothing of his own'” No Educational institution can be imagined without language. Languages are the Integral part of existence of any institution. History of languages is as old as human history. Ever since the inception of SVSD Bhatoli college, in year 1970, English has been making its presence felt in the academic horizon, through many fold contribution. Healthy atmosphere is provided for intellectual and emotional growth of the students. The department has n eye on the demands of fast changing world and emphasis is being laid on updating and pedagogy to keep pace with modem times. Conscious efforts are made to nurture and groom the precious human resources of the nation to keep them on their toes about their duties and responsibilities.vdv",
     "instructors": [
-      { "name": "Dr. Aarpan Sharma", "desig": "H.O.D., Associate Professor" },
-      { "name": "Mr.Amarjeet  Maan", "desig": "" }
+      {
+        "name": "Dr. Aarpan Sharma",
+        "desig": "H.O.D., Associate Professor",
+        "dpimg": "/assets/staff/ARPANA SHARMA.jpg"
+      },
+      { "name": "Mr. Amarjeet  Maan", "desig": "", "dpimg": "/assets/staff/Amarjeet Mann.jpg" }
     ],
     "seats": "TBA",
     "bod": "",
@@ -93,7 +105,11 @@
     "descsm": "ॐ सर्वेभवन्तुसुखिनःसर्वेसन्तुनिरामयाः ।सर्वेभद्राणिपश्यन्तु माकश्चिद्दुःखभाग्भवेत्।",
     "desc": "Sanskrit is said to be the mother of languages in the living world. It is the divined language for all sorts of perils and also a means for attaining all aims of human life. Sanskrit, we may say, is India and India is Sanskrit. It is unparalleled as a language in the world because of the fact that India’s philosophical and religious quest has been carried through this language. Indian Sanskrit literature is the key to open the doors of humanism, theology, astrology, astronomy, science and society. It is like a Pandora box to distribute wisdom and knowledge all over the world. Acknowledged as the most suitable language for computer programming, the study of Sanskrit offers fascinating avenues in Indology, Vedic Research, Teaching, Civil Services etc. The Department was established in year 1970.",
     "instructors": [
-      { "name": "Dr.Amrit Kaushal", "desig": "Assistant Professor, MA. (SKT), NET, JRF, PH.D" }
+      {
+        "name": "Dr.Amrit Kaushal",
+        "desig": "Assistant Professor, MA. (SKT), NET, JRF, PH.D",
+        "dpimg": "/assets/staff/Pandit Sharma.jpg"
+      }
     ],
     "seats": "TBA",
     "bod": "",
@@ -112,7 +128,8 @@
     "instructors": [
       {
         "name": "Miss. Preeti Sharma",
-        "desig": "Assistant Professor, MA (History), NET, SET, MPhil (pursuing)"
+        "desig": "Assistant Professor, MA (History), NET, SET, MPhil (pursuing)",
+        "dpimg": "/assets/staff/Preeti Sharma.jpg"
       }
     ],
     "seats": "TBA",
@@ -132,7 +149,8 @@
     "instructors": [
       {
         "name": "Miss. Swarima Verma",
-        "desig": "Assistant Professor (MA (Economics);NET, PhD (pursuing)"
+        "desig": "Assistant Professor (MA (Economics);NET, PhD (pursuing)",
+        "dpimg": "/assets/staff/Swarima Verma.jpg"
       }
     ],
     "seats": "TBA",
@@ -152,7 +170,8 @@
     "instructors": [
       {
         "name": "Mr. Atul Kumar",
-        "desig": "Assistant Professor (M.A.,NET, SET, PhD Pursuing)"
+        "desig": "Assistant Professor (M.A.,NET, SET, PhD Pursuing)",
+        "dpimg": "/assets/staff/Swarima Verma.jpg"
       }
     ],
     "seats": "TBA",
@@ -172,31 +191,38 @@
     "instructors": [
       {
         "name": "Dr. Yogesh Phul",
-        "desig": "H.O.D.(Commerce)"
+        "desig": "H.O.D.(Commerce)",
+        "dpimg": "/assets/imgs/avatar.jfif"
       },
       {
         "name": "Dr. Kamal Kishore",
-        "desig": "Co-Ordinator"
+        "desig": "Co-Ordinator",
+        "dpimg": "/assets/staff/kamal kishore.jpg"
       },
       {
         "name": "Prof. Poonam",
-        "desig": "Assistant Professor"
+        "desig": "Assistant Professor",
+        "dpimg": "/assets/staff/Poonam Sharma.jpg"
       },
       {
         "name": "Prof. Shivani",
-        "desig": "Assistant Professor"
+        "desig": "Assistant Professor",
+        "dpimg": "/assets/imgs/avatar.jfif"
       },
       {
         "name": "Prof. Neha",
-        "desig": "Assistant Professor"
+        "desig": "Assistant Professor",
+        "dpimg": "/assets/imgs/avatar.jfif"
       },
       {
         "name": "Prof. Shivati Rana",
-        "desig": "Assistant Professor"
+        "desig": "Assistant Professor",
+        "dpimg": "/assets/staff/Shivati Rana.jpg"
       },
       {
         "name": "Prof. Komal",
-        "desig": "Assistant Professor"
+        "desig": "Assistant Professor",
+        "dpimg": "/assets/staff/Komal.jpg"
       }
     ],
     "seats": "TBA",
@@ -216,15 +242,18 @@
     "instructors": [
       {
         "name": "Naresh Bala",
-        "desig": "(M.Sc., M.Phil) (Associate Professor, HOD)"
+        "desig": "(M.Sc., M.Phil) (Associate Professor, HOD)",
+        "dpimg": "/assets/staff/Naresh Bala.jpg"
       },
       {
         "name": "Vivek",
-        "desig": "(M.Sc., M.Phil, Ph.D., NET(CSIR-JRF), SET, GATE ) (Assistant Professor)"
+        "desig": "(M.Sc., M.Phil, Ph.D., NET(CSIR-JRF), SET, GATE ) (Assistant Professor)",
+        "dpimg": "/assets/staff/Vivek Jairath.jpg"
       },
       {
         "name": "Moni Sharma",
-        "desig": "(M.Sc.) (Assistant Professor)"
+        "desig": "(M.Sc.) (Assistant Professor)",
+        "dpimg": "/assets/staff/Moni Sharma.jpg"
       }
     ],
     "seats": "TBA",
@@ -244,15 +273,18 @@
     "instructors": [
       {
         "name": "Anup Kumar Sharma",
-        "desig": "M.Sc. , M.Phil (Associate Professor)"
+        "desig": "M.Sc. , M.Phil (Associate Professor)",
+        "dpimg": "/assets/staff/anup Kumar.jpg"
       },
       {
         "name": "D.P. Thakur",
-        "desig": "M.Sc. , M.Phil (Associate Professor)"
+        "desig": "M.Sc. , M.Phil (Associate Professor)",
+        "dpimg": "/assets/staff/D.P Thakur.jpeg"
       },
       {
         "name": "Prof .Lily Thakur",
-        "desig": "M.Sc. , M.Phil (Associate Professor)"
+        "desig": "M.Sc. , M.Phil (Associate Professor)",
+        "dpimg": "/assets/staff/Lilly Thakur.jpg"
       }
     ],
     "seats": "",
@@ -272,11 +304,13 @@
     "instructors": [
       {
         "name": "Naina Devi",
-        "desig": "Assistant Professor Botany M.Sc, HP SET, GATE (HOD)"
+        "desig": "Assistant Professor Botany M.Sc, HP SET, GATE (HOD)",
+        "dpimg": "/assets/staff/Naina devi.jpg"
       },
       {
         "name": "Ravi Kumar",
-        "desig": "Lab attendant  MA"
+        "desig": "Lab attendant  MA",
+        "dpimg": "/assets/staff/Ravi Kumar.jpg"
       }
     ],
     "seats": "TBA",
@@ -297,16 +331,19 @@
     "instructors": [
       {
         "name": "Shweta Manan",
-        "desig": "MSc, MPhil, PhD, SET, GOLDMEDALIST"
+        "desig": "MSc, MPhil, PhD, SET, GOLDMEDALIST",
+        "dpimg": "/assets/staff/shweta manan.jpg"
       },
       {
         "name": "Umesh Lath",
-        "desig": "MSc, MPhil, pursuing PhD"
+        "desig": "MSc, MPhil, pursuing PhD",
+        "dpimg": "/assets/staff/Vijay Lath.jpg"
       },
 
       {
         "name": "Anu Verma",
-        "desig": "MSc, pursuing PhD"
+        "desig": "MSc, pursuing PhD",
+        "dpimg": "/assets/staff/Anu Verma.jpg"
       }
     ],
     "seats": "TBA",
@@ -326,24 +363,29 @@
     "instructors": [
       {
         "name": "Mrs. Sangeeta  Singh Hada",
-        "desig": "M.A.(Eng.)M.A. (History), M.Ed., M.Phil.  NET Qualified"
+        "desig": "M.A.(Eng.)M.A. (History), M.Ed., M.Phil.  NET Qualified",
+        "dpimg": "/assets/staff/sangeeta singh hada.jpg"
       },
       {
         "name": "Sh. Rakesh Kumar",
-        "desig": "B.Sc., M.Ed., N ET Qualified"
+        "desig": "B.Sc., M.Ed., N ET Qualified",
+        "dpimg": "/assets/imgs/avatar.jfif"
       },
 
       {
         "name": "Ms. Priyanka",
-        "desig": " M.A. (Eco.), M.Ed."
+        "desig": " M.A. (Eco.), M.Ed.",
+        "dpimg": "/assets/staff/Priyanka kaushal.jpg"
       },
       {
         "name": "Sh. Mohnish Gautam",
-        "desig": "M.Com., M.Ed."
+        "desig": "M.Com., M.Ed.",
+        "dpimg": "/assets/imgs/avatar.jfif"
       },
       {
         "name": "Mrs. Jyoti ",
-        "desig": "M.A., M.Ed., M.Phil, NET Qualified"
+        "desig": "M.A., M.Ed., M.Phil, NET Qualified",
+        "dpimg": "/assets/imgs/avatar.jfif"
       }
     ],
     "seats": "TBA",
@@ -363,20 +405,24 @@
     "instructors": [
       {
         "name": "Prof. DP Thakur",
-        "desig": "Co-Ordinator"
+        "desig": "Co-Ordinator",
+        "dpimg": "/assets/staff/D.P Thakur.jpeg"
       },
       {
         "name": "Arvind Rana",
-        "desig": "B.Sc., M.Ed., N ET Qualified"
+        "desig": "B.Sc., M.Ed., N ET Qualified",
+        "dpimg": "/assets/staff/ArbindRana.jpg"
       },
 
       {
         "name": "Bindu Sharma",
-        "desig": "M.A., MCA, PhD(Pursuing)"
+        "desig": "M.A., MCA, PhD(Pursuing)",
+        "dpimg": "/assets/staff/Bindu Sharma.jpg"
       },
       {
         "name": "Samriti Rana",
-        "desig": "B.Tech(CS), M.Tech(CS), PhD(course work completed)"
+        "desig": "B.Tech(CS), M.Tech(CS), PhD(course work completed)",
+        "dpimg": "/assets/staff/Samriti rana.jpg"
       }
     ],
     "seats": "120",
