@@ -93,7 +93,7 @@ const Main = (props) => {
   return (
     <>
       <Carousel images={true} />
-      <div className="container my-5 " style={{ overflowX: "hidden" }}>
+      <div className="container my-5 " style={{ overflow: "hidden" }}>
         <div className="row">
           <div className="pt-5 pb-3 col-lg-6 col-12" data-aos="fade-up">
             <h2 className="display-5 text-dark fw-bold text-start mt-5 pt-5">

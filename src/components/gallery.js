@@ -75,7 +75,7 @@ const Galleria = (props) => {
           toast.error("Session Expired");
           removeCookie("uToken");
         } else {
-          toast.success("Deleted Notification");
+          toast.success("Deleted Image");
         }
         setChk(!chk);
       })

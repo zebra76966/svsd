@@ -107,7 +107,7 @@ const GalleryAdd = (props) => {
             toast.error("Session Expired");
             removeCookie("uToken");
           } else {
-            toast.success("Added Event");
+            toast.success("Added Image");
           }
         })
         .catch((error) => {

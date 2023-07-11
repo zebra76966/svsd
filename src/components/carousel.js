@@ -74,13 +74,29 @@ const Carousel = (props) => {
               </div>
             </div>
             <div className="carousel-item">
-              <img src="assets/imgs/3.jpeg" className="d-block img1" alt="..." />
+              <img src="assets/imgs/9.jpeg" className="d-block img1" alt="..." />
               <div className="carousel-caption  d-md-block">
                 <h5 className="fs-1 fw-bold">
                   Nothing is stronger than{" "}
                   <span style={{ background: "#af9fff" }} className=" px-2 rounded text-dark">
                     <strong>HABIT.</strong>
                   </span>
+                </h5>
+
+                <Link to="/all-courses" className="btn btn-light px-3 py-2 mt-2 fs-5 shadow-lg">
+                  Explore Courses
+                </Link>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img src="assets/imgs/3.jpeg" className="d-block img1" alt="..." />
+              <div className="carousel-caption  d-md-block">
+                <h5 className="fs-1 fw-bold">
+                  Nobody is born with{" "}
+                  <span style={{ background: "#af9fff" }} className=" px-2 rounded text-dark">
+                    <strong>Greatness</strong>
+                  </span>
+                  , it's Made
                 </h5>
 
                 <Link to="/all-courses" className="btn btn-light px-3 py-2 mt-2 fs-5 shadow-lg">
