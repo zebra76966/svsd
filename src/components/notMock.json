@@ -170,7 +170,7 @@
       {
         "name": "Mr. Atul Kumar",
         "desig": "Assistant Professor (M.A.,NET, SET, PhD Pursuing)",
-        "dpimg": "/assets/staff/Swarima Verma.jpg"
+        "dpimg": "/assets/staff/atul kumar.jpg"
       }
     ],
     "seats": "TBA",
@@ -403,6 +403,11 @@
         "name": "Samriti Rana",
         "desig": "B.Tech(CS), M.Tech(CS), PhD(course work completed)",
         "dpimg": "/assets/staff/Samriti rana.jpg"
+      },
+      {
+        "name": "Anurag Rana",
+        "desig": "Lab Technician",
+        "dpimg": "/assets/staff/Anurag Rana.jpg"
       }
     ],
     "seats": "120",
