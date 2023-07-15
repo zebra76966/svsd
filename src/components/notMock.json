@@ -231,9 +231,9 @@
     "instructors": [
       {
         "name": "TBA",
-        "desig": "-",
+        "desig": "TBA",
         "dpimg": "/assets/imgs/avatar.jfif"
-      },
+      }
      
     ],
     "seats": "TBA",
