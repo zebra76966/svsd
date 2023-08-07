@@ -1,7 +1,9 @@
 import React from "react";
+import ContributedCard from "../../contributercard";
 const NCC = () => {
   return (
     <>
+      <ContributedCard />
       <div className="container " style={{ marginTop: "150px" }}>
         <div className="row" data-aos="fade-up">
           <div className="col">
