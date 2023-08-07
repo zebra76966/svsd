@@ -15,6 +15,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header";
 import { useState } from "react";
 
+// student contributed pages==>
+import Library from "./components/studentContributed/library/library";
+import NCC from "./components/studentContributed/NCC/ncc";
+// Student Contrubuted pages end ==>
+
 function App() {
   const [chk, setChk] = useState(false);
 
@@ -30,6 +35,9 @@ function App() {
 
           <Route path="/user/:red" element={<User check={(e) => setChk(e)} og={chk} />} />
           <Route path="/about" element={<About />} />
+
+          <Route path="/library" element={<Library />} />
+          <Route path="/NCC" element={<NCC />} />
         </Routes>
         <Footer />
       </Router>

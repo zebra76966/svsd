@@ -146,14 +146,35 @@ const Header = (props) => {
                 </Link>
               </li>
 
-              <li className="nav-item ps-0 ms-0">
-                <Link
-                  to="/"
-                  className={`nav-link ${cPage == "kids" ? "active" : ""}`}
-                  onClick={() => setPage("kids")}
+              <li className="nav-item dropdown ps-0 ms-0">
+                <a
+                  href="#"
+                  className={`nav-link dropdown-toggle ${cPage == "kids" ? "active" : ""}`}
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
                   NCTE
-                </Link>
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <Link
+                      to="/library"
+                      class="dropdown-item"
+                      href="#"
+                      onClick={() => setPage("kids")}
+                    >
+                      Library
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/NCC" class="dropdown-item" href="#" onClick={() => setPage("kids")}>
+                      NCC
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li className="nav-item">
                 <Link
