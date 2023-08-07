@@ -87,8 +87,7 @@
         "name": "Dr. Aarpan Sharma",
         "desig": "H.O.D., Associate Professor",
         "dpimg": "/assets/staff/ARPANA SHARMA.jpg"
-      },
-      { "name": "Mr. Amarjeet  Maan", "desig": "", "dpimg": "/assets/staff/Amarjeet Mann.jpg" }
+      }
     ],
     "seats": "TBA",
     "bod": "",
@@ -171,7 +170,7 @@
       {
         "name": "Mr. Atul Kumar",
         "desig": "Assistant Professor (M.A.,NET, SET, PhD Pursuing)",
-        "dpimg": "/assets/staff/Swarima Verma.jpg"
+        "dpimg": "/assets/staff/atul kumar.jpg"
       }
     ],
     "seats": "TBA",
@@ -192,7 +191,7 @@
       {
         "name": "Dr. Yogesh Phul",
         "desig": "H.O.D.(Commerce)",
-        "dpimg": "/assets/imgs/avatar.jfif"
+        "dpimg": "/assets/staff/INDIAN.jpg"
       },
       {
         "name": "Dr. Kamal Kishore",
@@ -212,17 +211,7 @@
       {
         "name": "Prof. Neha",
         "desig": "Assistant Professor",
-        "dpimg": "/assets/imgs/avatar.jfif"
-      },
-      {
-        "name": "Prof. Shivati Rana",
-        "desig": "Assistant Professor",
-        "dpimg": "/assets/staff/Shivati Rana.jpg"
-      },
-      {
-        "name": "Prof. Komal",
-        "desig": "Assistant Professor",
-        "dpimg": "/assets/staff/Komal.jpg"
+        "dpimg": "/assets/staff/Bhuvi Aggarwal.jpg"
       }
     ],
     "seats": "TBA",
@@ -241,20 +230,11 @@
     "desc": "Welcome to the website of the Department of Physics. This page is intended to introduce you to our faculty and activities. S.V.S.D. Department of Physics in this college was established in 1975 with the introduction of the B.Sc. course. It is housed in a large area of college having two well-equipped laboratories and one computational laboratory with internet access. During an academic year, it serves the academic needs of approximately 800 undergraduate students specialising in Physics. The college library contains approximately 2500 books related to Physics. Since the inception of this department, a large number of students have been graduated excelling in various fields and made the institution proud. Department of Physics teaches students the fundamentals of physics. In this department, education entails the enrichment of physics principles as well as overall personality development of the student. As a result, our students are at par with the best institutes of the state. The faculty of this department has adopted the following specific programme outcomes to be achieved as part of the preparation process: Ability to apply mathematical and scientific knowledge, ability to plan and carry out experiments, as well as analyse and interpret data, ability to work in multidisciplinary teams, ability to recognise, formulate, and solve physics related problems, ability to effectively communicate, etc.",
     "instructors": [
       {
-        "name": "Naresh Bala",
-        "desig": "(M.Sc., M.Phil) (Associate Professor, HOD)",
-        "dpimg": "/assets/staff/Naresh Bala.jpg"
-      },
-      {
-        "name": "Vivek",
-        "desig": "(M.Sc., M.Phil, Ph.D., NET(CSIR-JRF), SET, GATE ) (Assistant Professor)",
-        "dpimg": "/assets/staff/Vivek Jairath.jpg"
-      },
-      {
-        "name": "Moni Sharma",
-        "desig": "(M.Sc.) (Assistant Professor)",
-        "dpimg": "/assets/staff/Moni Sharma.jpg"
+        "name": "TBA",
+        "desig": "TBA",
+        "dpimg": "/assets/imgs/avatar.jfif"
       }
+     
     ],
     "seats": "TBA",
     "bod": "",
@@ -364,12 +344,12 @@
       {
         "name": "Mrs. Sangeeta  Singh Hada",
         "desig": "M.A.(Eng.)M.A. (History), M.Ed., M.Phil.  NET Qualified",
-        "dpimg": "/assets/staff/sangeeta singh hada.jpg"
+        "dpimg": "/assets/staff/sangeeta singh hada.jpeg"
       },
       {
         "name": "Sh. Rakesh Kumar",
         "desig": "B.Sc., M.Ed., N ET Qualified",
-        "dpimg": "/assets/imgs/avatar.jfif"
+        "dpimg": "/assets/staff/Rakesh Kumar.jpeg"
       },
 
       {
@@ -423,6 +403,11 @@
         "name": "Samriti Rana",
         "desig": "B.Tech(CS), M.Tech(CS), PhD(course work completed)",
         "dpimg": "/assets/staff/Samriti rana.jpg"
+      },
+      {
+        "name": "Anurag Rana",
+        "desig": "Lab Technician",
+        "dpimg": "/assets/staff/Anurg Rana.jpg"
       }
     ],
     "seats": "120",
