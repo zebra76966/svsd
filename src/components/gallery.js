@@ -65,9 +65,7 @@ const Galleria = (props) => {
     // setIsloading(true);
     console.log(e);
 
-    Axios.post(
-      `https://blogpro.tech/apiPhp/myFiles/svsdAdd.php?type=2&id=${e}&token=` + cookies.uToken
-    )
+    Axios.post(`https://blogpro.tech/apiPhp/myFiles/svsdAdd.php?type=2&id=${e}&token=` + cookies.uToken)
       .then((response) => {
         console.log(response);
         setIsloading(false);
@@ -119,36 +117,57 @@ const Galleria = (props) => {
             )}
           </div>
           <div className="row">
-            {notdataset
-              .filter((e) => e.type == "gallery")
-              .slice(0, notdataset.length)
-              .map((ini, i) => {
-                return (
-                  <div className="col-lg-3 col-md-4 col-12">
-                    <img
-                      src={ini.slideData.src}
-                      onClick={() => setIndex(i)}
-                      className="img-fluid pb-2 pe-2 w-100 rounded-4 shadow"
-                      data-aos="fade-up"
-                    />
-                    {cookies.uToken !== undefined &&
-                      localStorage.getItem("fUserName") == "superuser" && (
-                        <button
-                          id={ini.id}
-                          onClick={() => handleDelete(ini.id)}
-                          className="btn rounded btn-danger"
-                          disabled={isLoading}
-                        >
-                          {isLoading ? (
-                            <i class="fa fa-spinner fa-spin"></i>
-                          ) : (
-                            <i className="fa fa-trash-o "></i>
-                          )}
+            <div className="col-md-4 col-12 pe-0">
+              {notdataset
+                .filter((e) => e.type == "gallery")
+                .slice(0, Math.ceil(notdataset.length / 3) - 1)
+                .map((ini, i) => {
+                  return (
+                    <>
+                      <img src={ini.slideData.src} onClick={() => setIndex(i)} className="img-fluid pb-2  w-100 rounded-4 shadow" data-aos="fade-up" />
+                      {cookies.uToken !== undefined && localStorage.getItem("fUserName") == "superuser" && (
+                        <button id={ini.id} onClick={() => handleDelete(ini.id)} className="btn rounded btn-danger" disabled={isLoading}>
+                          {isLoading ? <i class="fa fa-spinner fa-spin"></i> : <i className="fa fa-trash-o "></i>}
                         </button>
                       )}
-                  </div>
-                );
-              })}
+                    </>
+                  );
+                })}
+            </div>
+            <div className="col-md-4 col-12 pe-0">
+              {notdataset
+                .filter((e) => e.type == "gallery")
+                .slice(Math.ceil(notdataset.length / 3) - 1, 2 * Math.floor(notdataset.length / 3))
+                .map((ini, i) => {
+                  return (
+                    <>
+                      <img src={ini.slideData.src} onClick={() => setIndex(i)} className="img-fluid pb-2  w-100 rounded-4 shadow" data-aos="fade-up" />
+                      {cookies.uToken !== undefined && localStorage.getItem("fUserName") == "superuser" && (
+                        <button id={ini.id} onClick={() => handleDelete(ini.id)} className="btn rounded btn-danger" disabled={isLoading}>
+                          {isLoading ? <i class="fa fa-spinner fa-spin"></i> : <i className="fa fa-trash-o "></i>}
+                        </button>
+                      )}
+                    </>
+                  );
+                })}
+            </div>
+            <div className="col-md-4 col-12 pe-0">
+              {notdataset
+                .filter((e) => e.type == "gallery")
+                .slice(2 * Math.floor(notdataset.length / 3), notdataset.length)
+                .map((ini, i) => {
+                  return (
+                    <>
+                      <img src={ini.slideData.src} onClick={() => setIndex(i)} className="img-fluid pb-2  w-100 rounded-4 shadow" data-aos="fade-up" />
+                      {cookies.uToken !== undefined && localStorage.getItem("fUserName") == "superuser" && (
+                        <button id={ini.id} onClick={() => handleDelete(ini.id)} className="btn rounded btn-danger" disabled={isLoading}>
+                          {isLoading ? <i class="fa fa-spinner fa-spin"></i> : <i className="fa fa-trash-o "></i>}
+                        </button>
+                      )}
+                    </>
+                  );
+                })}
+            </div>
           </div>
         </div>
       </div>
@@ -157,16 +176,10 @@ const Galleria = (props) => {
       {stoggle && (
         <div style={searchToggle} data-aos="fade-up">
           <div className="d-block w-100">
-            <button
-              className="btn btn-lg btn-dark fw-bold text-white rounded-circle position-absolute top-0 m-5 end-0"
-              onClick={() => setToggle(!stoggle)}
-              style={{ zIndex: "999" }}
-            >
+            <button className="btn btn-lg btn-dark fw-bold text-white rounded-circle position-absolute top-0 m-5 end-0" onClick={() => setToggle(!stoggle)} style={{ zIndex: "999" }}>
               <i className="fa fa-times"></i>
             </button>
-            <div className=" d-block w-100 px-lg-5 px-2">
-              {form === "gallery" && <GalleryAdd chk={(e) => setChk(e)} og={chk} record={ndata} />}
-            </div>
+            <div className=" d-block w-100 px-lg-5 px-2">{form === "gallery" && <GalleryAdd chk={(e) => setChk(e)} og={chk} record={ndata} />}</div>
           </div>
         </div>
       )}
