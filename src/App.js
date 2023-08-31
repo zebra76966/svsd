@@ -16,7 +16,7 @@ import { useEffect, useState } from "react";
 
 // student contributed pages==>
 import Library from "./components/studentContributed/library/library";
-import NCC from "./components/studentContributed/NCC/ncc";
+import NCC from "./components/studentContributed/NCC/ncc1";
 // Student Contrubuted pages end ==>
 
 function App() {

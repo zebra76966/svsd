@@ -61,28 +61,16 @@ const Header = (props) => {
       <Toaster />
 
       <nav
-        className={`navbar navbar-expand-lg py-lg-4 px-lg-3 ${
-          isWindowSize991 || offset > 200 || loc.pathname !== "/" || isWindowSize991
-            ? "navbar-light bg-light shadow-lg"
-            : "navbar-dark bg-none "
-        }`}
+        className={`navbar navbar-expand-lg py-lg-4 px-lg-3 ${isWindowSize991 || offset > 200 || loc.pathname !== "/" || isWindowSize991 ? "navbar-light bg-light shadow-lg" : "navbar-dark bg-none "}`}
         style={{
           transition: "all 0.5s ease-in-out",
-          top:
-            isWindowSize991 || offset > 200 || loc.pathname !== "/" || isWindowSize991 ? "0" : "2%",
+          top: isWindowSize991 || offset > 200 || loc.pathname !== "/" || isWindowSize991 ? "0" : "2%",
         }}
       >
-        <div className="container-fluid d-flex justify-content-between">
-          <Link
-            to="/"
-            className="navbar-brand align-middle m-0"
-            onClick={() => setPage("/")}
-            id="mobbrand"
-          >
+        <div className="container-fluid d-flex justify-content-between" style={{ position: "relative" }}>
+          <Link to="/" className="navbar-brand align-middle m-0" onClick={() => setPage("/")} id="mobbrand">
             <img
-              src={`/assets/imgs/${
-                isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "svsdBW.svg" : "svsdW.svg"
-              }`}
+              src={`/assets/imgs/${isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "svsdBW.svg" : "svsdW.svg"}`}
               className="img-fluid m-0 p-0"
               style={{
                 aspectRatio: 1,
@@ -108,37 +96,23 @@ const Header = (props) => {
           <div className="collapse navbar-collapse w-100 " id="navbarSupportedContent">
             <ul className="navbar-nav  mb-2 mb-lg-0 mx-auto d-flex align-items-center">
               <li className="nav-item">
-                <a
-                  href="https://admission.svsdbhatoli.in/"
-                  target="_blank"
-                  className={`nav-link ${cPage == "Ethnics" ? "active" : ""}`}
-                  onClick={() => setPage("Ethnics")}
-                >
+                <a href="https://admission.svsdbhatoli.in/" target="_blank" className={`nav-link ${cPage == "Ethnics" ? "active" : ""}`} onClick={() => setPage("Ethnics")}>
                   Addmissions
                 </a>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/all-courses/"
-                  className={`nav-link ${cPage == "Shop All" ? "active" : ""}`}
-                  onClick={() => setPage("Shop All")}
-                >
+                <Link to="/all-courses/" className={`nav-link ${cPage == "Shop All" ? "active" : ""}`} onClick={() => setPage("Shop All")}>
                   Courses
                 </Link>
               </li>
               <li className="nav-item" id="deskbrand">
                 <Link to="/" className="navbar-brand align-middle m-0" onClick={() => setPage("/")}>
                   <img
-                    src={`/assets/imgs/${
-                      isWindowSize991 || offset > 200 || loc.pathname !== "/"
-                        ? "svsdBW.svg"
-                        : "svsdW.svg"
-                    }`}
+                    src={`/assets/imgs/${isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "svsdBW.svg" : "svsdW.svg"}`}
                     className="img-fluid m-0 p-0"
                     style={{
                       aspectRatio: 1,
-                      height:
-                        isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "50px" : "200px",
+                      height: isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "50px" : "200px",
                       width: "auto",
                       transition: "all 0.5s ease-in-out",
                     }}
@@ -147,25 +121,13 @@ const Header = (props) => {
               </li>
 
               <li className="nav-item dropdown ps-0 ms-0">
-                <a
-                  href="#"
-                  className={`nav-link dropdown-toggle ${cPage == "kids" ? "active" : ""}`}
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+                <a href="#" className={`nav-link dropdown-toggle ${cPage == "kids" ? "active" : ""}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   NCTE
                 </a>
 
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <Link
-                      to="/library"
-                      class="dropdown-item"
-                      href="#"
-                      onClick={() => setPage("kids")}
-                    >
+                    <Link to="/library" class="dropdown-item" href="#" onClick={() => setPage("kids")}>
                       Library
                     </Link>
                   </li>
@@ -177,20 +139,12 @@ const Header = (props) => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/gallery"
-                  className={`nav-link ${cPage == "gallery" ? "active" : ""}`}
-                  onClick={() => setPage("gallery")}
-                >
+                <Link to="/gallery" className={`nav-link ${cPage == "gallery" ? "active" : ""}`} onClick={() => setPage("gallery")}>
                   Gallery
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/about"
-                  className={`nav-link ${cPage == "about" ? "active" : ""}`}
-                  onClick={() => setPage("about")}
-                >
+                <Link to="/about" className={`nav-link ${cPage == "about" ? "active" : ""}`} onClick={() => setPage("about")}>
                   About
                 </Link>
               </li>
@@ -199,10 +153,7 @@ const Header = (props) => {
 
           <div
             className={`bag px-3 fs-5 d-flex justify-content-between 
-          ${
-            isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"
-          } fs-4 position-absolute end-0  pe-4 align-items-center`}
-            style={{ top: isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "30%" : "43%" }}
+          ${isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"} fs-4 position-absolute end-0  pe-4 align-items-center`}
             id="logs"
           >
             {/* <div className="position-relative ">
@@ -267,27 +218,12 @@ const Header = (props) => {
               ></i>
             )}
             {cookies.uToken == undefined && (
-              <Link
-                to="/user/main"
-                className={` link ${
-                  isWindowSize991 || offset > 200 || loc.pathname !== "/"
-                    ? "text-dark"
-                    : "text-light"
-                }`}
-              >
+              <Link to="/user/main" className={` link ${isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"}`}>
                 <i className="fa fa-user mx-4" style={{ cursor: "pointer" }}></i>
               </Link>
             )}
-            <a
-              className={`px-2 link ${
-                isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"
-              }`}
-            >
-              <i
-                className="fa fa-search "
-                onClick={() => setToggle(!stoggle)}
-                style={{ cursor: "pointer" }}
-              ></i>
+            <a className={`px-2 link ${isWindowSize991 || offset > 200 || loc.pathname !== "/" ? "text-dark" : "text-light"}`}>
+              <i className="fa fa-search " onClick={() => setToggle(!stoggle)} style={{ cursor: "pointer" }}></i>
             </a>
           </div>
         </div>
@@ -295,21 +231,12 @@ const Header = (props) => {
       {stoggle && (
         <div style={searchToggle} data-aos="fade-up">
           <div className="d-block w-100">
-            <button
-              className="btn btn-lg btn-dark fw-bold text-white rounded-circle position-absolute top-0 m-5 end-0"
-              onClick={() => setToggle(!stoggle)}
-            >
+            <button className="btn btn-lg btn-dark fw-bold text-white rounded-circle position-absolute top-0 m-5 end-0" onClick={() => setToggle(!stoggle)}>
               X
             </button>
             <div className=" d-block w-100 px-lg-5 px-2">
               <form className="d-flex pe-0 w-100 mx-auto shadow-lg">
-                <input
-                  className="form-control  rounded-0 rounded-start  py-3 shadow-sm"
-                  type="search"
-                  placeholder="Search"
-                  value={search}
-                  onChange={(e) => setSearch(e.target.value)}
-                />
+                <input className="form-control  rounded-0 rounded-start  py-3 shadow-sm" type="search" placeholder="Search" value={search} onChange={(e) => setSearch(e.target.value)} />
                 <button className="btn btn-dark rounded-0 rounded-end" type="submit">
                   <i className="fa fa-search"></i>
                 </button>
@@ -319,16 +246,10 @@ const Header = (props) => {
               {data
                 .filter((e) => e.type == "course")
                 .map((pini, i) => {
-                  if (
-                    pini.head.toLowerCase().includes(search.toLowerCase()) &&
-                    search.length !== 0
-                  ) {
+                  if (pini.head.toLowerCase().includes(search.toLowerCase()) && search.length !== 0) {
                     return (
                       <Link to={`/product/${pini.id}`} className="link">
-                        <div
-                          className="sBox text-dark bg-light w-100 mx-auto d-flex align-items-center justify-content-between p-3 border border-1"
-                          onClick={() => setToggle(!stoggle)}
-                        >
+                        <div className="sBox text-dark bg-light w-100 mx-auto d-flex align-items-center justify-content-between p-3 border border-1" onClick={() => setToggle(!stoggle)}>
                           <img src={pini.thumb} style={{ width: "10%" }} />
 
                           <p>{pini.head}</p>
