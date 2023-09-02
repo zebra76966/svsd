@@ -28,6 +28,8 @@ const Header = (props) => {
 
   const [cPage, setPage] = useState("");
 
+  const [handleDd, setHandleDD] = useState(false);
+
   useEffect(() => {
     setCart(JSON.parse(localStorage.getItem("cart")));
   }, [props.check]);
@@ -56,9 +58,13 @@ const Header = (props) => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    setHandleDD(false);
+  }, [loc.pathname]);
   return (
     <>
       <Toaster />
+      {console.log(handleDd)}
 
       <nav
         className={`navbar navbar-expand-lg py-lg-4 px-lg-3 ${isWindowSize991 || offset > 200 || loc.pathname !== "/" || isWindowSize991 ? "navbar-light bg-light shadow-lg" : "navbar-dark bg-none "}`}
@@ -121,18 +127,40 @@ const Header = (props) => {
               </li>
 
               <li className="nav-item dropdown ps-0 ms-0">
-                <a href="#" className={`nav-link dropdown-toggle ${cPage == "kids" ? "active" : ""}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  href="#"
+                  className={`nav-link dropdown-toggle ${cPage == "kids" ? "active" : ""} ${handleDd ? "show" : ""}`}
+                  id="navbarDropdown"
+                  onClick={() => setHandleDD(!handleDd)}
+                  aria-expanded={handleDd}
+                >
                   NCTE
                 </a>
 
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class={`dropdown-menu ${handleDd ? "show" : ""}`} aria-labelledby="navbarDropdown">
                   <li>
-                    <Link to="/library" class="dropdown-item" href="#" onClick={() => setPage("kids")}>
+                    <Link
+                      to="/library"
+                      class="dropdown-item"
+                      href="#"
+                      onClick={() => {
+                        setPage("kids");
+                        setHandleDD(false);
+                      }}
+                    >
                       Library
                     </Link>
                   </li>
                   <li>
-                    <Link to="/NCC" class="dropdown-item" href="#" onClick={() => setPage("kids")}>
+                    <Link
+                      to="/NCC"
+                      class="dropdown-item"
+                      href="#"
+                      onClick={() => {
+                        setPage("kids");
+                        setHandleDD(false);
+                      }}
+                    >
                       NCC
                     </Link>
                   </li>
