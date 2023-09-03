@@ -95,7 +95,8 @@ const Galleria = (props) => {
         </div>
       )}
 
-      {/* {console.log((dataset.filter(e=>e.type=="gallery").length-1))} */}
+      {/* {console.log(notdataset.filter((e) => e.type == "gallery").length)} */}
+      {console.log(Math.ceil((notdataset.length - 1) / 3))}
       <div style={{ marginTop: "100px" }} className="bg-dark py-5">
         <div className="container">
           <div className="d-flex justify-content-between align-items-center  pt-2 pb-3">
@@ -120,7 +121,7 @@ const Galleria = (props) => {
             <div className="col-md-4 col-12 pe-0">
               {notdataset
                 .filter((e) => e.type == "gallery")
-                .slice(0, Math.ceil(notdataset.length / 3) - 1)
+                .slice(0, Math.ceil((notdataset.length - 1) / 3))
                 .map((ini, i) => {
                   return (
                     <>
@@ -137,7 +138,7 @@ const Galleria = (props) => {
             <div className="col-md-4 col-12 pe-0">
               {notdataset
                 .filter((e) => e.type == "gallery")
-                .slice(Math.ceil(notdataset.length / 3) - 1, 2 * Math.floor(notdataset.length / 3))
+                .slice(Math.ceil((notdataset.length - 1) / 3), 2 * Math.ceil((notdataset.length - 1) / 3))
                 .map((ini, i) => {
                   return (
                     <>
@@ -154,7 +155,7 @@ const Galleria = (props) => {
             <div className="col-md-4 col-12 pe-0">
               {notdataset
                 .filter((e) => e.type == "gallery")
-                .slice(2 * Math.floor(notdataset.length / 3), notdataset.length)
+                .slice(2 * Math.ceil((notdataset.length - 1) / 3), notdataset.length - 1)
                 .map((ini, i) => {
                   return (
                     <>

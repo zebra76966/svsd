@@ -35,13 +35,14 @@ const Login = () => {
       .then((response) => {
         typeof response.data == "string" ? setTresponse(response.data) : setResponse(response.data);
 
-        response.data !== "Email or Password doesn't exist or incorrect" &&
-          setCookie("uToken", response.data.token, { path: "/" });
+        response.data !== "Email or Password doesn't exist or incorrect" && setCookie("uToken", response.data.token, { path: "/" });
         setUdata({ uemail: "", pw: "" });
 
-        response.data !== "Email or Password doesn't exist or incorrect"
-          ? toast.success("Success")
-          : toast.error("Error");
+        if (response.data !== "Email or Password doesn't exist or incorrect") {
+          window.location.href = "/";
+        }
+
+        response.data !== "Email or Password doesn't exist or incorrect" ? toast.success("Success") : toast.error("Error");
         setIsloading(false);
       })
       .catch((error) => {
@@ -63,12 +64,7 @@ const Login = () => {
       )}
       <div className="card" style={{ background: "transparent", border: "none", height: "100vh" }}>
         <div className="d-flex h-100 align-items-center justify-content-center mt-5">
-          <form
-            id="uform"
-            onSubmit={handlesubmit}
-            className="row g-3 col-11 col-md-5 p-4 my-5 text-dark rounded shadow-lg bg-light"
-            data-aos="fade-down"
-          >
+          <form id="uform" onSubmit={handlesubmit} className="row g-3 col-11 col-md-5 p-4 my-5 text-dark rounded shadow-lg bg-light" data-aos="fade-down">
             <h3 className="fw-bold">Login</h3>
             {tresponse.length !== 0 && <p className="fw-bold text-info">{tresponse}</p>}
             <hr />
@@ -106,17 +102,6 @@ const Login = () => {
                 Continue
               </button>
             </div>
-            <p className="lead">
-              Don't have an Account?
-              <Link
-                to="/user/main"
-                state={{ check: "SignUp" }}
-                className="link-info text-decoration-none fw-bold"
-              >
-                {" "}
-                Sign Up
-              </Link>
-            </p>
           </form>
           <Outlet />
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-import SignUp from "./signup";
+// import SignUp from "./signup";
 import Login from "./login";
 
 import { useCookies } from "react-cookie";
@@ -41,11 +41,7 @@ const User = () => {
             localStorage.setItem("fuserMail", response.data.userEmail);
             setVerified(true);
             toast.success("Success");
-          } else if (
-            response.data == "Expired token" ||
-            response.data == "Signature verification failed" ||
-            response.data == "error"
-          ) {
+          } else if (response.data == "Expired token" || response.data == "Signature verification failed" || response.data == "error") {
             setVerified(false);
             removeCookie("uToken");
             toast.error(response.data);
@@ -90,7 +86,7 @@ const User = () => {
         )}
 
         {((!isverified && !location.state) || (!isverified && check == "Login")) && <Login />}
-        {!isverified && check == "SignUp" && <SignUp />}
+        {/* {!isverified && check == "SignUp" && <SignUp />} */}
       </div>
     </div>
   );
