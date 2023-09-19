@@ -276,7 +276,7 @@ const Header = (props) => {
                 .map((pini, i) => {
                   if (pini.head.toLowerCase().includes(search.toLowerCase()) && search.length !== 0) {
                     return (
-                      <Link to={`/product/${pini.id}`} className="link">
+                      <Link to={`/course/${pini.id}`} className="link">
                         <div className="sBox text-dark bg-light w-100 mx-auto d-flex align-items-center justify-content-between p-3 border border-1" onClick={() => setToggle(!stoggle)}>
                           <img src={pini.thumb} style={{ width: "10%" }} />
 

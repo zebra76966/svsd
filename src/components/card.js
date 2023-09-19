@@ -36,18 +36,11 @@ const Card = (props) => {
 
   return (
     <div className="card border-0 shadow h-100">
-      <Link to={`/product/${props.id}`} className="link">
-        <img
-          src={props.record.thumb}
-          className="card-img-top "
-          style={{ objectFit: "cover", height: "200px" }}
-          alt="..."
-          onMouseEnter={() => setMouse(1)}
-          onMouseLeave={() => setMouse(0)}
-        />
+      <Link to={`/course/${props.id}`} className="link">
+        <img src={props.record.thumb} className="card-img-top " style={{ objectFit: "cover", height: "200px" }} alt="..." onMouseEnter={() => setMouse(1)} onMouseLeave={() => setMouse(0)} />
       </Link>
       <div className="card-body">
-        <Link to={`/product/${props.id}`} className="link">
+        <Link to={`/course/${props.id}`} className="link">
           <h5 className="card-title fw-bold text-dark text-truncate">{props.record.head}</h5>
 
           <h6 className="text-dark text-truncate">{props.record.descm}</h6>
@@ -57,7 +50,7 @@ const Card = (props) => {
         </Link>
 
         <div className="d-flex justify-content-between">
-          <Link to={`/product/${props.id}`} className="btn btn-dark w-100 rounded">
+          <Link to={`/course/${props.id}`} className="btn btn-dark w-100 rounded">
             Course Details
           </Link>
         </div>

@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main check={(e) => setChk(e)} og={chk} />} />
           <Route path="/gallery" element={<Galleria check={(e) => setChk(e)} og={chk} />} />
-          <Route path="/product/:id" element={<ProdView check={(e) => setChk(e)} og={chk} />} />
+          <Route path="/course/:id" element={<ProdView check={(e) => setChk(e)} og={chk} />} />
           <Route path="/all-courses/" element={<AllProds check={(e) => setChk(e)} og={chk} />} />
 
           <Route path="/user/:red" element={<User check={(e) => setChk(e)} og={chk} />} />
