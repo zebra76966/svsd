@@ -279,14 +279,14 @@ const Main = (props) => {
         {/* itemVid End===> */}
       </div>
       <div className="row position-relative bg-dark mb-0 mt-5 mx-0">
-        <div className="container py-4 ">
+        <div className="container py-4 " data-aos="fade-up">
           <div className="imageGrid " style={{ position: "relative", overflowY: "hidden" }} id="grid1">
             {notdataset
               .filter((e) => e.type == "gallery")
               .slice(0, notdataset.length)
               .map((ini, i) => {
                 return (
-                  <div style={{ display: "inline-block", width: "350px", aspectRatio: "1" }} className="p-3" data-aos="fade-up">
+                  <div style={{ display: "inline-block", width: "350px", aspectRatio: "1" }} className="p-3" >
                     <img src={ini.slideData.src} className="img-fluid w-100 h-100 rounded shadow" onClick={() => setIndex(i)} style={{ objectFit: "cover", cursor: "pointer" }} />
                   </div>
                 );
@@ -318,8 +318,9 @@ const Main = (props) => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
+data-aos="fade-in"
       >
-        <div className="container" style={{ overflowX: "hidden" }} id="about" data-aos="fade-up">
+        <div className="container" style={{ overflowX: "hidden" }} id="about" >
           <h2 className=" display-4 text-light fw-bold text-center mt-5 pt-lg-5 pt-1">
             About Our <span style={{ color: "#af9fff" }}>College</span>
           </h2>
