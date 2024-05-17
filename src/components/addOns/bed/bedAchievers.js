@@ -13,7 +13,7 @@ const BedAch = () => {
         return (
           <div className="col-lg-4 col-12  mb-5" data-aos="fade-up">
             <div className="card w-100 border-0 shadow rounded-4 text-light h-100 bg-dark">
-              <img src={"/assets/students/bed/" + ini.img} className="card-img-top" alt="..." style={{ height: "350px", objectFit: "cover" }} />
+              <img src={"/assets/students/bed/" + ini.img} className="card-img-top" alt="..." style={{ minHeight: "350px", objectFit: "cover" }} />
               <div className="card-body py-3">
                 <h5 className="card-title py-2">{ini.name}</h5>
                 <p className="text-lead pt-1 mt-0">{ini.year}</p>

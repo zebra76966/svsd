@@ -169,12 +169,13 @@ const ProdView = (props) => {
 
           <div className="row mt-5">
             {ndata.map((ini) => {
-              if (ini.id == params.id) {
+              const prefix = params.id.match(/[a-zA-Z]+/)[0]; // Extract the alphabetical part of the id
+              if (ini.id.startsWith(prefix)) {
                 return ini.instructors.map((jini) => {
                   return (
                     <div className="col-lg-4 col-12  mb-5" data-aos="fade-up">
                       <div className="card w-100 border-0 shadow rounded-4 text-light h-100" style={{ background: "#af9fff" }}>
-                        <img src={jini.dpimg} className="card-img-top" alt="..." style={{ height: "350px", objectFit: "cover" }} />
+                        <img src={jini.dpimg} className="card-img-top h-100" alt="..." style={{ minHeight: "350px", maxHeight: "450px", objectFit: "cover" }} />
                         <div className="card-body py-3">
                           <h5 className="card-title py-2">{jini.name}</h5>
                           <p className="text-lead">{jini.desig}</p>
@@ -190,7 +191,7 @@ const ProdView = (props) => {
           {/* Extras==> */}
         </div>
       </div>
-      <div className="w-100 bg-dark pt-5">
+      {/* <div className="w-100 bg-dark pt-5">
         <div className="container py-4 pt-5">
           <h4 className="fs-1  text-light text-center" data-aos="fade-up">
             Young Achievers of the College <i className="fa fa-star text-warning"></i>{" "}
@@ -201,7 +202,7 @@ const ProdView = (props) => {
 
           {params.id == "bed1" && <BedAch />}
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

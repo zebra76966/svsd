@@ -264,7 +264,7 @@ const Header = (props) => {
             </button>
             <div className=" d-block w-100 px-lg-5 px-2">
               <form className="d-flex pe-0 w-100 mx-auto shadow-lg">
-                <input className="form-control  rounded-0 rounded-start  py-3 shadow-sm" type="search" placeholder="Search" value={search} onChange={(e) => setSearch(e.target.value)} />
+                <input className="form-control  rounded-0 rounded-start  py-3 shadow-sm" type="search" placeholder="Search" value={search} onChange={(e) => setSearch(e.target.value.toLowerCase())} />
                 <button className="btn btn-dark rounded-0 rounded-end" type="submit">
                   <i className="fa fa-search"></i>
                 </button>

@@ -22,13 +22,7 @@ const AllProds = (props) => {
         <div className="row" data-aos="zoom-in">
           <div className="col-12">
             <form className="d-flex pe-0 w-100 mx-auto shadow-lg">
-              <input
-                className="form-control  rounded-0 rounded-start  py-3 shadow-sm"
-                type="search"
-                placeholder="Search"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-              />
+              <input className="form-control  rounded-0 rounded-start  py-3 shadow-sm" type="search" placeholder="Search" value={search} onChange={(e) => setSearch(e.target.value.toLowerCase())} />
               <button className="btn btn-dark rounded-0 rounded-end" type="submit">
                 <i className="fa fa-search"></i>
               </button>
@@ -40,16 +34,10 @@ const AllProds = (props) => {
           {products
             .filter((e) => e.type == "course")
             .map((ini, i) => {
-              if (ini.head.toLowerCase().includes(search)) {
+              if (ini.head.toLowerCase().includes(search) || ini.desc.toLowerCase().includes(search) || ini.id.toLowerCase().includes(search)) {
                 return (
                   <div className="col-lg-4 col-12 my-3" data-aos="fade-up">
-                    <Card
-                      key={i}
-                      id={ini.id}
-                      record={ini}
-                      ogs={props.og}
-                      checks={(e) => props.check(e)}
-                    />
+                    <Card key={i} id={ini.id} record={ini} ogs={props.og} checks={(e) => props.check(e)} />
                   </div>
                 );
               }

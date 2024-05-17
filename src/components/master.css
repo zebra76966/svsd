@@ -221,9 +221,10 @@ a {
   }
   #logs {
     right: 8% !important;
-    top: 50% !important;
-    transform: translateY(-50%);
-    /* position: fixed !important; */
+    top: 1.25% !important;
+    z-index: 999;
+    position: fixed !important;
+    /* transform: translateY(-50%); */
   }
 }
 
